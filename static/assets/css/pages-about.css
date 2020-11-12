@@ -1,0 +1,421 @@
+ .m-hd .title {
+    font-weight: normal;
+    font-size: 24px;
+}
+.m-hd .title {
+    float: left;
+    font-size: 18px;
+    color: #333;
+}
+.m-hd {
+  /*height: 45px;*/
+  /*line-height: 55px;*/
+  overflow: hidden;
+  /*padding: 20px 0 0px 20px;*/
+  margin-bottom: 20px;
+  text-align: center;
+  background: #EBEEEB;
+  border-radius: 5px;
+}
+ .m-hd span a {
+    color: #1b71e0;
+}
+.f3 {
+    border: 1px solid #ddd;
+    padding: 5px 0;
+}
+.m-hd .more {
+    float: right;
+    line-height: 50px;
+    color: #999;
+    margin-left: 10px;
+}
+.picbox .piclist img {
+    float: left;
+    width: 200px;
+    height: 165px;
+}
+
+ .piclist p {
+    float: left;
+    background: #f1f1f1;
+    width: 130px;
+    height: 145px;
+    padding: 10px;
+    text-align: left;
+}
+/*地图*/
+.loupan-peitao {
+    border: #dbdbdb 1px solid;
+    margin-bottom: 20px;
+}
+.loupan-peitao h2 {
+	padding: 20px;
+    font-size: 24px;
+    color: #333;
+    font-weight: normal;
+}
+.tab-ul li i {
+    display: block;
+    width: 58px;
+    height: 58px;
+    margin: 0 auto;
+}
+/*房屋评论*/
+.f5 .m-mes .hd {
+    border-bottom: #666 2px solid;
+    margin: 0;
+}
+
+.f5 {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    overflow: hidden;
+}
+.f5 .m-rank {
+    padding: 0;
+    float: right;
+    width: 270px;
+}
+.f5 .scope {
+    overflow: hidden;
+    padding: 10px 0;
+}
+.f5 .scope .zhpf-top1 h3 {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    float: left;
+    line-height: 36px;
+}
+.f5 .m-rank .bd .item {
+    margin-top: 20px;
+    overflow: hidden;
+}
+.f5 .m-rank .bd .img img {
+    width: 120px;
+}
+.f5 .m-rank .bd .img {
+    float: left;
+    width: 120px;
+    margin-right: 10px;
+    height: 100px;
+}
+.f5 .m-rank .bd .text {
+    float: left;
+    width: 140px;
+}
+.f5 .scope .zhpf-top1 h3 {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    float: left;
+    line-height: 36px;
+}
+.f5 .scope .star {
+    float: left;
+
+    height: 25px;
+   /* background: url(../images/com_04.png) no-repeat;*/
+    margin: 5px 0 0 10px;
+    position: relative;
+}
+.f5 .scope .zhpf-right a {
+    display: block;
+    width: 110px;
+    line-height: 40px;
+    color: #fff;
+    background: #ff5203;
+    text-align: center;
+    margin-top: 8px;
+}
+.f5 .m-mes .hd p {
+    float: left;
+    line-height: 14px;
+    margin-top: 16px;
+    color: #999;
+    margin-left: 20px;
+}
+.f5 .m-mes .hd .tit:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #ff5203;
+    left: 0;
+    bottom: -12px;
+    position: absolute;
+}
+.f5 .m-mes .hd .more {
+    float: right;
+    line-height: 14px;
+    margin-top: 16px;
+}
+.m-mes .kf dt {
+    float: left;
+    width: 60px;
+    margin-right: 10px;
+    margin-left: -60px;
+    color: #f60;
+    text-align: center;
+}
+.m-mes .kf {
+    background: #f5f5f5;
+    padding: 10px;
+    padding-left: 70px;
+    border: 0 none;
+    margin-bottom: 10px;
+    min-height: 70px;
+    font-size: 14px;
+}
+.f5 .m-rank .hd {
+    padding: 10px 0;
+    height: auto;
+    border-bottom: #666 2px solid;
+}
+.f5 .m-rank .hd .tit {
+    font-size: 20px;
+    color: #333;
+    line-height: 20px;
+    float: left;
+    position: relative;
+}
+.f5 .m-rank .hd .tit:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #ff5203;
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+}
+.f5 .m-mes {
+    float: left;
+    width: 630px;
+}
+.f5 .m-rank {
+    padding: 0;
+    float: right;
+    width: 250px;
+}
+.f5 .m-mes .hd .tit {
+    font-size: 20px;
+    color: #333;
+    line-height: 20px;
+    height: 20px;
+    margin: 10px 0;
+    float: left;
+    position: relative;
+}
+.f5 .m-rank .bd .text {
+    float: left;
+    width: 120px;
+}
+.f5 .scope .zhpf-top1 p {
+    float: left;
+    line-height: 36px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff5203;
+    margin: 0 10px;
+}
+.f5 .scope .zhpf-top1 span {
+    float: left;
+    line-height: 36px;
+    color: #333;
+    font-size: 18px;
+}
+.f5 .m-mes .hd:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+.f5 .m-rank .hd:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.f5 .scope .zhpf-right {
+    float: right;
+}
+.f5 .m-rank .bd .text .t {
+    color: #333;
+    line-height: 20px;
+    font-size: 16px;
+}
+.f5 .m-rank .bd .text .p {
+    line-height: 20px;
+    margin-top: 4px;
+}
+.f5 .m-rank .bd .text .s p {
+    float: left;
+    font-size: 12px;
+    color: #ff5203;
+    line-height: 20px;
+    margin-left: 4px;
+}
+.f5 .m-rank .bd .text .star {
+    float: left;
+    width: 80px;
+    height: 14px;
+    /*background: url(../images/com-list-09.png) no-repeat;*/
+    margin-top: 3px;
+}
+/*房屋相册*/
+.f6 {
+    height: 280px;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+}
+.m-hd .title {
+    font-weight: normal;
+    font-size: 24px;
+}
+.f6 img {
+    display: block;
+    width: 260px;
+    height: 180px;
+    margin-bottom: 5px;
+}
+.f6 li {
+    float: left;
+    width: 260px;
+    margin-right: 30px;
+    font-size: 16px;
+    text-align: center;
+    color: #666;
+}
+/*同价位房屋*/
+.f8 {
+    border: #ddd 1px solid;
+    padding: 10px 20px;
+    overflow: hidden;
+}
+.f8 .f-fl .title {
+    float: left;
+    position: relative;
+    line-height: 40px;
+    font-size: 18px;
+    color: #333;
+    font-weight: normal;
+}
+.f8 .f-fl .s-scroll .img img {
+    height: 105px;
+    width: 150px;
+    display: block;
+}
+.f8 .f-fl .bd {
+    padding: 10px 0;
+}
+.f8 .f-fl .s-scroll .s-l {
+    float: right;
+    margin-left: 20px;
+    width: 180px;
+}
+.f8 .f-fl .s-scroll li {
+    overflow: hidden;
+    height: auto;
+    border: none;
+    padding: 0;
+    padding: 8px 0;
+}
+.m-lp-list li {
+    height: 18px;
+    line-height: 18px;
+    padding: 10px 0;
+    border-bottom: 1px dotted #e0e0e0;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+.f8 .f-fl .s-scroll .imgBox .price {
+    display: block;
+    float: none;
+    width: auto;
+    text-indent: 0;
+    height: auto;
+}
+.f8 .f-fl .s-scroll .imgBox .area {
+    display: block;
+    line-height: 30px;
+    float: none;
+    width: auto;
+    text-align: left;
+    height: auto;
+}
+.f8 .f-fl .s-scroll .imgBox .more {
+    display: block;
+    line-height: 26px;
+    background: #ff5203;
+    color: #fff;
+    width: 80px;
+    text-align: center;
+    height: auto;
+}
+.f8 .f-fl {
+    float: left;
+    width: 420px;
+    margin-left: 20px;
+}
+.f8 .f-fl .s-scroll .imgBox .lpnan a {
+    color: #333;
+    font-size: 16px;
+}
+ .f8 .f-fl .s-scroll li .area {
+    float: left;
+    width: 66px;
+    text-align: right;
+    color: #999;
+}
+.f8 .f-fl .s-scroll li .price {
+    float: left;
+    width: 150px;
+    text-indent: 20px;
+    color: #ff5203;
+}
+ .f8 .f-fl .s-scroll li .area {
+    float: left;
+    width: 66px;
+    text-align: right;
+    color: #999;
+}
+.f8 .f-fl .s-scroll li .lpnan {
+    float: left;
+    width: 150px;
+}
+/*感兴趣房屋*/
+ .f9 {
+ 	height: 250px;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+}
+.f9 .m-list-img .bd img {
+    display: block;
+    width: 159px;
+    height: 138px;
+}
+.f9 .m-list-img .bd li {
+    float: left;
+    width: 159px;
+    height: 177px;
+    margin-right: 20px;
+}
+.f9 .m-list-img .bd .tit {
+    position: absolute;
+    bottom: 0;
+    width: 159px;
+    height: 20px;
+    line-height: 20px;
+    text-indent: 1em;
+    background: #333;
+    background: rgba(0,0,0,.5);
+    color: #fff;
+    overflow: hidden;
+}
+.f9 .m-list-img .bd {
+    width: 100%;
+    padding-left: 5px;
+    overflow: hidden;
+}
+.f-fr {
+    float: right;
+}

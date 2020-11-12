@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html class="not-ie no-js" lang="en">
+<head>
+<!--  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />-->
+  <!--<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <title>Lucent | Home Page</title>
+
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <link rel="icon" type="image/png" href="../../../../static/assets/images/favicon.ico">
+
+  <link rel="stylesheet" href="../../../../static/assets/css/style.css" media="screen" />
+
+  <link rel="stylesheet" href="../../../../static/assets/sliders/elastslider/elastic.css" media="screen" />
+
+  <link rel="stylesheet" href="../../../../static/assets/css/indexhome.css" media="screen" />
+  <!--  <link rel="stylesheet" href="../../../static/static/css/amazeui.min.css">-->
+  <link rel="stylesheet" href="../../../../static/assets/css/newstyle.css" media="screen" />
+  <script type="text/javascript" src="../../../../static/assets/js/lazyload-min.js"></script>
+  <script src="../../../../static/assets/js/modernizr.custom.js"></script>
+  <script src="../../../../static/assets/js/jquery-1.7.1.min.js"></script>
+  <script src="../../../../static/ceshi/js/jquery.tiles.js"></script>
+
+  <link rel="stylesheet" href="../../../../static/ceshi/css/styles.css" media="screen"/>
+
+  <!--必要样式表-->
+  <link rel="stylesheet" href="../../../../static/ceshi/css/jquery.tiles.min.css"/>
+
+</head>
+
+  <body  class="liquid light">
+    <div id="app"></div>
+  </body>
+<script src="../../../../static/ceshi/js/jquery.tiles.js"></script>
+<script src="../../../../static/assets/js/respond.min.js"></script>
+<script src="../../../../static/assets/js/jquery.easing-1.3.min.js"></script>
+<script src="../../../../static/assets/sliders/elastslider/jquery.eislideshow.js"></script>
+<script src="../../../../static/assets/js/jquery.jcarousel.min.js"></script>
+<script src="../../../../static/assets/js/jquery.cycle.all.min.js"></script>
+<script src="../../../../static/assets/js/custom.js"></script>
+<script src="../../../../static/assets/themeChanger/js/colorpicker.js"></script>
+<script src="../../../../static/assets/themeChanger/js/themeChanger.js"></script>
+<script src="../../../../static/assets/js/newadd.js"></script>
+<script type="text/javascript">
+  var $slider = $('.slider-wrap');
+  var html = $slider.html();
+
+  // Options
+
+  var defaults = {
+    thumbSize:20,
+    onSlideshowEnd:function(){
+      $('.stop, .start').toggle()
+    }
+  };
+
+  var effects = {
+    'default': { x:6, y:4, random: true }
+  };
+
+  $('#effects-select').change(function(){
+    setTimeout(function(){
+      $('.slider').tilesSlider($.extend( {}, defaults, effects[ effect ]));
+      $slider.fadeTo( 0,1 );
+      $('body').removeClass('tiles-preload');
+    }, 100 );
+
+    $('.code').empty().html(function() {
+      var e = effects[ effect ], c = [];
+      for ( var i in e ) {
+        if ( i !== 'effect' ) {
+          c.push('<code>'+ i +': '+ e[i] +'</code>');
+        }
+      }
+      return c.join('');
+    });
+  });
+
+  $(function() {
+    $(this).hide();
+    $('.stop').show();
+    $('.slider').tilesSlider('start');
+  });
+
+  $('.slider').tilesSlider( $.extend( {}, defaults, effects['default'] ) );
+
+</script>
+
+</html>

@@ -1,0 +1,16 @@
+ .imglist .title {
+    float: left;
+    font-size: 18px;
+    font-weight: normal;
+}
+.imglist .bd img {
+    width: 184px;
+    height: 130px;
+    padding: 2px;
+    margin-bottom: 10px;
+    border: 1px solid #fff;
+}
+.imglist, .p-imglist .bigimg-box {
+    background: #f7f7f7;
+    padding: 20px;
+}

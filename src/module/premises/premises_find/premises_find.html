@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <title>宜家租房</title>
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="icon" type="image/png" href="../../../../static/assets/images/favicon.ico">
+
+    <link rel="stylesheet" href="../../../../static/assets/css/style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../../../../static/assets/css/sizer.css" />
+    <link rel="stylesheet" href="../../../../static/assets/css/zySearch.css" type="text/css" />
+    <link rel="stylesheet" href="../../../../static/assets/blue/style.css" type="text/css" />
+    <link rel="stylesheet" href="../../../../static/assets/css/newstyle.css" media="screen" />
+
+    <link rel="stylesheet" href="../../../../static/assets/css/pager.css"/>
+    <script src="../../../../static/assets/js/modernizr.custom.js"></script>
+  </head>
+
+  <body class="liquid light">
+    <div id="app"></div>
+    <script src="../../../../static/assets/js/jquery-1.7.1.min.js"></script>
+
+   <script src="../../../../static/assets/js/shaixuan.js"></script>
+    <script src="../../../../static/assets/js/respond.min.js"></script>
+    <script src="../../../../static/assets/js/jquery.easing-1.3.min.js"></script>
+    <script src="../../../../static/assets/js/custom1.js"></script>
+    <script src="../../../../static/assets/themeChanger/js/colorpicker.js"></script>
+    <script src="../../../../static/assets/themeChanger/js/themeChanger1.js"></script>
+    <script type="text/javascript" src="../../../../static/assets/js/zySearch.js"></script>
+    <script type="text/javascript" src="../../../../static/assets/js/lazyload-min.js"></script>
+    <script type="text/javascript">
+      function searchToggle(obj, evt){
+        var container = $(obj).closest('.search-wrapper');
+
+        if(!container.hasClass('active')){
+          container.addClass('active');
+          evt.preventDefault();
+        }
+        else if(container.hasClass('active') && $(obj).closest('.input-holder').length == 0){
+          container.removeClass('active');
+          // clear input
+          container.find('.search-input').val('');
+          // clear and hide result container when we press close
+          container.find('.result-container').fadeOut(100, function(){$(this).empty();});
+        }
+      }
+
+      function submitFn(obj, evt){
+        value = $(obj).find('.search-input').val().trim();
+
+        _html = "Yup yup! Your search text sounds like this: ";
+        if(!value.length){
+          _html = "Yup yup! Add some text friend :D";
+        }
+        else{
+          _html += "<b>" + value + "</b>";
+        }
+
+        $(obj).find('.result-container').html('<span>' + _html + '</span>');
+        $(obj).find('.result-container').fadeIn(100);
+
+        evt.preventDefault();
+      }
+
+    </script>
+    <script src="../../../../static/assets/js/pager.js">  </script>
+    <script>
+      Page({
+        num:6,					//页码数
+        startnum:3,				//指定页码
+        elem:$('#page1'),		//指定的元素
+        callback:function(n){	//回调函数
+          console.log(n);
+        }
+      });
+      Page({
+        num:7,					//页码数
+        startnum:6,				//指定页码
+        elem:$('#page2'),		//指定的元素
+        callback:function(n){	//回调函数
+          console.log(n);
+        }
+      });
+    </script>
+
+    <script type="text/javascript">
+
+      $("#zySearch").zySearch({
+        "width":"355",
+        "height":"33",
+        "parentClass":"pageTitle",
+        "callback":function(keyword){
+          console.info("搜索的关键字");
+          console.info(keyword);
+        }
+      });
+
+    </script>
+
+  </body>
+</html>

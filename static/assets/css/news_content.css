@@ -1,0 +1,40 @@
+.article .hd .title {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+.article .hd .meta {
+    padding: 10px 0;
+    font-size: 14px;
+    color: #999;
+}
+.article .hd .meta span {
+    margin-right: 15px;
+}
+.article .hd a {
+    color: #999;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+.article .hd {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+.article .bd p {
+    margin: 10px 0;
+    text-indent: 2em;
+}
+.article .bd {
+    font-size: 16px;
+    line-height: 30px;
+    color: #333;
+}
+.article .hd .meta b {
+    float: right;
+    font-weight: normal;
+}

@@ -1,0 +1,132 @@
+.header {
+    height: 86px;
+    padding-top: 19px;
+}
+.header .header-left p {
+    margin-top: 15px;
+    font-size: 24px;
+    color: #404040;
+    width: 380px;
+}
+.header .header-left h1 .logo1 {
+    margin-right: 30px;
+    _margin-right: 10px;
+    float: left;
+    display: block;
+    width: 170px;
+    height: 56px;
+    text-indent: -9999px;
+    background-position: 0 0;
+    background-image: url(../../../static/assets/images/loupan.png);
+    background-repeat: no-repeat;
+}
+.header .header-right a {
+    float: left;
+    display: block;
+    width: 69px;
+   line-height: 60px;
+    /*border: 1px solid #d7d7d7;*/
+
+    text-align: center;
+    font-size: 18px;
+    color: #676767;
+   /* margin-top: 17px;*/
+}
+.fr {
+    float: right;
+}
+.header .header-right a {
+    width: 129px;
+}
+.fl {
+    float: left;
+}
+.header .header-left {
+    width: 330px;
+}
+.banner {
+  	width: 100%;
+  	height: 700px;
+    background: url(../images/calculate.png) no-repeat;
+    padding-top: 68px;
+    background-color:#e8f3fd;
+}
+
+.header .header-right img {
+    margin-top: 0;
+}
+.header .header-right a {
+    width: 129px;
+}
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: normal;
+    color: #333;
+    margin-top: 36px;
+}
+.tuijian {
+    width: 100%;
+    background: #e8f3fd;
+    padding-bottom: 44px;
+}
+#tuijian .tuijian-ul li img {
+    width: 116px;
+    height: 49px;
+}
+#tuijian .tuijian-ul li {
+    float: left;
+    width: 116px;
+    height: 49px;
+    border: 2px solid #fff;
+    margin-right: 26px;
+    cursor: pointer;
+}
+#tuijian {
+    margin-top: 63px;
+}
+#tuijian .tuijian-wrapper {
+    display: none;
+    width: 1000px;
+    border-top: 2px solid #85bbef;
+}
+#tuijian .tuijian-ul {
+    height: 85px;
+}
+#tuijian .tuijian-wrapper .tabletitle, #tuijian .tuijian-wrapper .tabletext {
+    width: 285px;
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+    border-bottom: 1px solid #c6e0f2;
+    border-right: 1px solid #c6e0f2;
+}
+.tabletext {
+    background: #fff;
+}
+.tuijian-bottom p {
+    float: left;
+    _text-align: left;
+}
+a, a:hover {
+    color: #333;
+    outline: none;
+    text-decoration: none;
+}
+#tuijian .tuijian-wrapper table {
+    border: 1px solid #c6e0f2;
+    margin-top: 20px;
+}
+.tuijian {
+    width: 100%;
+    background: #e8f3fd;
+    padding-bottom: 44px;
+}
+.wrapper-box {
+    width: 1000px;
+    margin: 0 auto;
+}
+.tuijian-bottom .more {
+    float: right;
+    color: #444437;
+}

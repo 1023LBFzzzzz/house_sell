@@ -1,0 +1,195 @@
+ .m-rank {
+    font-size: 14px;
+    padding: 10px;
+    background: #f5f5f5;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.score .tit {
+    width: 60px;
+    padding-right: 10px;
+    text-align: right;
+}
+.score .s1 i {
+    background: #29c5c9;
+}
+.score .bor i {
+    display: block;
+    height: 10px;
+    border-radius: 2px;
+}
+.score .s2 i {
+    background: #b596db;
+}
+.score .bor i {
+    display: block;
+    height: 10px;
+    border-radius: 2px;
+}
+.score .s5 i {
+    background: #db45ad;
+}
+.score .bor {
+    border: 1px solid #ddd;
+    margin-top: 8px;
+    margin-right: 10px;
+    padding: 2px;
+    height: 10px;
+    width: 250px;
+    border-radius: 5px;
+    background: #fff;
+}
+.score .s3 i {
+    background: #4eaae9;
+}
+.score .s4 i {
+    background: #f49445;
+}
+ .score li {
+    height: 30px;
+    line-height: 30px;
+}
+.score span {
+    float: left;
+}
+ .m-rank .hd {
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+.star .tit {
+    width: 60px;
+    padding-right: 10px;
+    float: left;
+    text-align: right;
+}
+ .star {
+    float: left;
+    width: 250px;
+}
+.score {
+    float: left;
+    width: 400px;
+    margin-bottom: 10px;
+}
+.star p {
+    padding: 3px;
+    margin-top: 3px;
+    margin-right: 10px;
+}
+
+	#star {
+		position: relative;
+		width: 600px;
+		margin: 6px auto;
+		height: 25px;
+	}
+
+	#star ul,
+	#star span {
+		float: left;
+		display: inline;
+		height: 19px;
+		line-height: 19px;
+	}
+
+	#star ul {
+		margin: 0 10px;
+	}
+
+	#star li {
+		float: left;
+		width: 24px;
+		cursor: pointer;
+		text-indent: -9999px;
+		background: url(../images/star.png) no-repeat;
+	}
+
+	#star strong {
+		color: #f60;
+		padding-left: 10px;
+	}
+
+	#star li.on {
+		background-position: 0 -28px;
+	}
+.comment_form .tit {
+    float: left;
+    color: #333;
+    font-size: 16px;
+}
+.m-hd .tit {
+    font-size: 18px;
+    color: #333;
+}
+.comment_form .review-bd {
+    padding: 20px 18px;
+   }
+.comment_form input {
+    border: none;
+     background-color: transparent;
+}
+.comment_form textarea {
+    float: left;
+    font-size: 12px;
+    width: 560px;
+    height: auto;
+    overflow: auto;
+    text-align: left;
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+}
+.comment_form li {
+    margin: 5px 0 10px;
+}
+.review-confirm .review-btn {
+    float: right;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    background-color: #ff551a;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.m-hd .title {
+    float: left;
+    font-size: 18px;
+    color: #333;
+    font-size: 20px;
+    text-indent: 0px;
+}
+.m-hd .more {
+    float: right;
+    line-height: 60px;
+    margin: 0px;
+}
+.m-lp-list i {
+    float: left;
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    text-align: center;
+    background: #ddd;
+    color: #fff;
+}
+.m-lp-list .hot {
+    background: #ff5203;
+}
+.m-lp-list .price {
+    width: 80px;
+}
+.m-lp-list .lpnan {
+    width: 75px;
+    overflow: hidden;
+}
+
+.m-lp-list span {
+    float: left;
+    height: 18px;
+}

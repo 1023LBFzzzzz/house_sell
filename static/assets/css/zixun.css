@@ -1,0 +1,72 @@
+body{
+	font: 12px/1.5 \5FAE\8F6F\96C5\9ED1, tahoma, arial, "Hiragino Sans GB",\5b8b\4f53;
+    color: #666;
+}
+.m-list-new .bd li {
+    padding: 20px 15px;
+    border-bottom: 1px dotted #e0e0e0;
+    font-size: 14px;
+    zoom: 1;
+}
+li {
+    list-style: none;
+}
+.m-list-new {
+    margin-bottom: 20px;
+}
+.m-list-new .bd li .tit {
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.m-list-new .bd li .time {
+    margin-top: 5px;
+    text-align: right;
+    color: #999;
+}
+.m-list-new .bd li .time a {
+    margin-left: 10px;
+    color: #999;
+}
+.f-fl {
+    float: left;
+}
+ .search {
+    float: right;
+}
+ .search a {
+    float: left;
+    line-height: 40px;
+    background: #009dfc;
+    color: #fff;
+    width: 65px;
+    text-align: center;
+    font-size: 12px;
+}
+ .search input {
+    float: left;
+    height: 38px;
+    border: #ddd 1px solid;
+    border-right: none;
+    line-height: 38px\9;
+    width: 264px;
+    text-indent: 10px;
+    font-size: 14px;
+}
+img {
+    vertical-align: middle;
+}
+.m-list-new .bd li .img {
+    float: left;
+    width: 156px;
+    height: 106px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+.m-list-new .bd li:hover{
+	background-color: white;
+}
+.m-list-new .bd li:hover .tit a {
+    color: #f60;
+}
+

@@ -1,0 +1,204 @@
+ .main dt {
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+.main li {
+    float: left;
+    width: 50%;
+    height: 34px;
+    line-height: 34px;
+    overflow: hidden;
+}
+.main {
+    padding: 0 20px;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    color: #333;
+}
+.main li .tit {
+    float: left;
+    width: 80px;
+    font-weight: bold;
+}
+.main li i {
+    font-size: 30px;
+}
+.s-fc2 {
+    color: #1b71e0;
+}
+.main dl {
+    padding: 20px 0;
+    margin-top: -1px;
+    border-top: 1px dotted #ddd;
+}
+.main .line {
+    float: none;
+    width: 100%;
+    clear: both;
+}
+.main dd {
+    font-size: 14px;
+    line-height: 30px;
+}
+/*房屋动态*/
+.time-list .hd a {
+    float: left;
+    line-height: 28px;
+    margin-right: 4px;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+    background: #f5f5f5;
+    padding: 0 10px;
+}
+.time-list .hd a {
+    float: left;
+    line-height: 28px;
+    margin-right: 4px;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+    background: #f5f5f5;
+    padding: 0 10px;
+}
+.time-list .hd a.cur {
+    background: #ff5203;
+    color: #fff;
+}
+.time-list .hd p {
+    float: right;
+    font-size: 14px;
+    color: #999;
+    line-height: 28px;
+}
+.time-list dt .tb-icon {
+    position: absolute;
+    left: -10px;
+    background-position: 0 -113px;
+    display: block;
+    padding-left: 20px;
+    width: 80px;
+    height: 26px;
+    line-height: 26px;
+    color: #fff;
+    text-align: center;
+}
+.time-list dd .tit {
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+}
+.time-list dd {
+    padding: 30px 10px;
+    border-bottom: 1px dashed #ddd;
+}
+.time-list dd p a {
+    color: #f60;
+}
+/*订阅动态*/
+.enter-dy {
+    background: #f9f9f9;
+    padding: 20px 0 20px 20px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+.enter-dy .enter-tit {
+    font-size: 20px;
+    color: #333;
+}
+.enter-dy .enter-desc p {
+    line-height: 30px;
+}
+.enter-dy .enter-form .tel input {
+    width: 100%;
+    height: 48px;
+    text-indent: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+}
+.enter-dy .enter-form .btn button {
+    width: 100%;
+    border: none;
+    height: 48px;
+    font-size: 18px;
+    color: #fff;
+    background: #fe6200;
+    border-radius: 4px;
+}
+.enter-dy .enter-form .xy a {
+    color: #1b71e0;
+}
+.enter-dy .enter-desc {
+    margin-top: 20px;
+}
+.enter-dy .enter-form .xy {
+    margin: 20px 0 0 0;
+    line-height: 20px;
+    height: 20px;
+}
+/*户型图*/
+ .imglist {
+    background: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #f7f7f7;
+    height: 720px;
+}
+.imglist  .smallimg {
+    width: 184px;
+    height: 130px;
+    padding: 2px;
+    margin-bottom: 10px;
+   /* border: 1px solid #fff;*/
+}
+.imglist p {
+    padding: 0 10px;
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+}
+.imglist  li {
+    position: relative;
+    float: left;
+    width: 190px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background: #fff;
+    height: 200px;
+    overflow: hidden;
+    list-style-type:none;
+}
+.sdc-imglist .menu li a {
+    display: block;
+    height: 40px;
+    padding: 0 40px;
+    color: #666;
+}
+.sdc-imglist .info {
+    padding: 10px;
+    margin: 10px;
+    margin-top: 0;
+    border-top: 1px dotted #ddd;
+    font-size: 14px;
+}
+
+.sdc-imglist .menu li a:hover, .sdc-imglist .menu .this a {
+    background: #f7f7f7;
+    color: #f60;
+}
+.enter-dy {
+     background: #f9f9f9;
+     padding:10px;
+     margin-bottom: 20px;
+}
+.enter-dy .enter-form .tel {
+    margin: 10px 0px 0 0;
+    border: #ddd 1px solid;
+    border-radius: 4px;
+}
+.enter-dy .enter-form .btn {
+    margin: 20px 0px 0 0;
+}
