@@ -57,7 +57,7 @@
         <header id="header" class="clearfix">
 
           <div id="logo">
-            <h1><a href="index.html">宜家租房</a></h1>
+            <h1><a href="index.html">闲居租房</a></h1>
             <!--/ .slogan-->
           </div>
           <!--/ #logo-->

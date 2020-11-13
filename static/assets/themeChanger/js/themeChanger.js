@@ -13,12 +13,12 @@ var page_config = {
 		}
 	},
 	skin : {
-		0 : {
+		1 : {
 			name : 'skin',
 			title : 'light',
 			className : 'light'
 		},
-		1 : {
+		0 : {
 			name : 'skin',
 			title : 'dark',
 			className : 'dark'
@@ -211,7 +211,8 @@ $(function() {
             change_html += '<form>';
             $.each(page_config.layout, function(idx, val) {
 					if ($body.hasClass(val.className)) {
-						change_html += '<label><input checked type="radio" name="'+ val.name +'" value="'+ val.title +'" class="'+ val.className +'">'+ val.title +'</label>';
+            change_html += '<label><input checked type="radio" name="'+ val.name +'" value="'+ val.title +'" class="'+ val.className +'">'+ val.title +'</label>';
+            console.log(change_html)
 						defaultSettings.pattern = idx;
 					} else {
 						change_html += '<label><input type="radio" name="'+ val.name +'" value="'+ val.title +'" class="'+ val.className +'">'+ val.title +'</label>';

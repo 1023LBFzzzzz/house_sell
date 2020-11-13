@@ -69,7 +69,7 @@
           </div>
           <div class="header_bg" style="position: fixed; width: 100%; top: 0px; left: 0px; z-index: 999; display: block;" id="scrollHeader">
             <div class="detail_header clearfix">
-              <div class="nav_l"> <a class="xz_logo" href="#">宜家</a>
+              <div class="nav_l"> <a class="xz_logo" href="#">闲居</a>
 
                 <ul id="scorllFather">
                   <li > <a :href="'/premises/premises_info.html?premise_id='+premise_id+''">实拍照片</a>

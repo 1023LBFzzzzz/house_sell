@@ -83,38 +83,38 @@
          <ul class="ei-slider-large">
 
            <li>
-             <img src="../../../static/assets/images/sliders/img_01.jpg" alt="image01" />
+             <img src="https://image.xiaozhustatic3.com/00,800,533/2,16,0,61,2915,1800,1200,5e2d5979.jpg" alt="image01" />
              <div class="ei-title">
-               <h2>Hdsd,The sky is blue</h2>
-               <h3>Rsdssppy</h3>
+               <h2>Ei Slider Large</h2>
+               <h3>Ljksds</h3>
              </div>
            </li>
            <li>
-             <img src="../../../static/assets/images/sliders/img_02.jpg" alt="image01" />
+             <img src="https://image.xiaozhustatic3.com/00,800,533/2,51,0,14,1867,1800,1200,0ac9eafd.jpg" alt="image01" />
              <div class="ei-title">
-               <h2>The root is black, Ydddd</h2>
-               <h3>Rsdssppy</h3>
+               <h2>The Sky is so beautiful</h2>
+               <h3>Kjdshx</h3>
              </div>
            </li>
            <li>
-             <img src="../../../static/assets/images/sliders/img_03.jpg" alt="image01" />
+             <img src="https://image.xiaozhustatic3.com/00,800,533/2,9,0,3,5096,1800,1200,25afc714.jpg" alt="image01" />
              <div class="ei-title">
-               <h2>The blue River is crossing the outSise, Yggg</h2>
-               <h3>Rsdssppy</h3>
+               <h2>WHere there is a will</h2>
+               <h3>Gddjsnnd</h3>
              </div>
            </li>
            <li>
-             <img src="../../../static/assets/images/sliders/img_04.jpg" alt="image01" />
+             <img src="https://image.xiaozhustatic3.com/00,800,533/2,51,0,59,48397,1800,1201,28c427c6.jpg" alt="image01" />
              <div class="ei-title">
-               <h2>The RainBow is on the Sky， Kyy</h2>
-               <h3>Photography</h3>
+               <h2>There is a Way</h2>
+               <h3>Ldsdjsd</h3>
              </div>
            </li>
            <li>
-             <img src="../../../static/assets/images/sliders/img_05.jpg" alt="image01" />
+             <img src="https://image.xiaozhustatic3.com/00,800,533/1,51,0,64,81108,3000,2000,dfedfe0e.jpg" alt="image01" />
              <div class="ei-title">
-               <h2>Panorama View of Budapest, Hungary</h2>
-               <h3>Travelling</h3>
+               <h2>SomeTimes Ifill some sad</h2>
+               <h3>Buliing</h3>
              </div>
            </li>
 
