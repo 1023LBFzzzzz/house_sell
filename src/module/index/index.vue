@@ -56,7 +56,7 @@
        <header id="header" class="clearfix">
 
          <div id="logo">
-           <h1><a href="index.html"><img src="/static/static/image/logo.png"  class="logo"/></a></h1>
+           <h1><a href="index.html"><img src="/static/static/image/epad.jpg"  class="logo"/></a></h1>
            <input v-if="str!=null" class="slogan" type="text" style="background:none; outline:none; border:0px;font-size: 16px;font-weight: bold;"  placeholder="选择城市" id="inputTest" readonly="readonly" v-model='str' v-on:change="changeCity"/>
          </div><!--/ #logo-->
 
@@ -64,8 +64,8 @@
            <ul>
              <li class="current"><a href="/index.html">首页</a>
              </li>
-             <li><a href="/premises/premises_find.html">房屋</a></li>
-             <li><a href="/news/news_info.html">房东的故事</a>
+             <li><a href="/premises/premises_find.html">租房信息</a></li>
+             <li><a href="/news/news_info.html">闲居要闻</a>
              </li>
 
            </ul>
@@ -141,9 +141,9 @@
        <div class="plate" style="margin-top: 40px;">
          <div class="publicTitle">
            <h2><a href="/premises/premises_find.html" target="_blank">特色租房</a></h2>
-           <div class="desc">全新具有我们特色的租房，推荐给你</div>
+           <div class="desc">最好的，并且有特色的租房推荐给你，满足你的需求。</div>
            <!-- <div class="search">
-               <input type="text" name="q" maxlength="20" v-model="searchValue" placeholder="输入房屋名称">
+               <input type="text" name="q" maxlength="20" v-model="searchValue" placeholder="输入租房信息名称">
                <input type="hidden" name="search_type" value="house"><a href="javascript:;" target="_blank" id="home_so">搜索</a>
            </div> -->
          </div>
@@ -166,11 +166,11 @@
        <div class="articleSale" style="margin-top: 40px;">
          <div class="publicTitle">
            <h2><a href="/news/news_info.html" target="_blank">租房故事</a></h2>
-           <div class="desc">聆听房东们的故事，享受更优质的服务</div>
+           <div class="desc">享受闲居要闻，了解更多身边事</div>
          </div>
          <div class="content">
           <div class="article">
-             <div class="t"><a href="/news/news_info.html" target="_blank" class="tt">房东故事</a><a href="/news/news_info.html" target="_blank">更多 ></a>
+             <div class="t"><a href="/news/news_info.html" target="_blank" class="tt">闲居要闻</a><a href="/news/news_info.html" target="_blank">更多 ></a>
              </div>
              <div class="list">
                <div class="item" v-for="news in newsList">
@@ -195,8 +195,8 @@
            <nav id="footer-nav" class="clearfix">
              <ul>
                <li class="current"><a href="/index.html">首页</a></li>
-               <li><a href="/premises/premises_find.html">房屋</a></li>
-               <li><a href="/news/news_info.html">房东的故事</a></li>
+               <li><a href="/premises/premises_find.html">租房信息</a></li>
+               <li><a href="/news/news_info.html">闲居要闻</a></li>
              </ul>
            </nav><!--/ #footer-nav-->
 
@@ -283,7 +283,7 @@
     },
     data () {
       return {
-        str:'玄武区',
+        str:'建邺区',
         list: [],
         newsList:[],
         newsList2:[],
@@ -330,7 +330,7 @@
         params = {
           cityName: this.str,
           token: this.token,
-          news_type: '房东的故事',
+          news_type: '闲居要闻',
           pageIndex: 1,
           pageSize: 9,
         }

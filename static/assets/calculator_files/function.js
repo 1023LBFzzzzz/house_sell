@@ -53,7 +53,7 @@ function mover(id){
 }
 function copyToClipBoard(){
 	var clipBoardContent = "";
-	clipBoardContent += "最全面最及时的房屋展示和房屋信息查询的房产网";
+	clipBoardContent += "最全面最及时的租房信息展示和租房信息信息查询的房产网";
 	clipBoardContent += "\n";
 	clipBoardContent += document.location.href;
 	window.clipboardData.setData("Text",clipBoardContent);

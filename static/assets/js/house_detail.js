@@ -570,7 +570,7 @@ require(['jquery', 'common', 'ajaxform', 'photo', 'charts', 'qrcode', 'map', 'co
         $('.shapan-close').on('click', function () {
             $(this).parents('.shapan-info').hide();
         });
-        // 沙盘图 房屋列表
+        // 沙盘图 租房信息列表
         $('.shapan-hide i').on('click', function () {
             var dq = $(this);
             if (dq.hasClass('off')) {

@@ -107,7 +107,7 @@
 
           <div id="content">
             <div class="m-rank f-cb">
-              <div class="hd">综合评分<b class="s-fc1 all_avg">75.60</b>分/100分 网友综合房屋评分（<b class="nums">205</b>人参加）</div>
+              <div class="hd">综合评分<b class="s-fc1 all_avg">75.60</b>分/100分 网友综合租房信息评分（<b class="nums">205</b>人参加）</div>
               <input type="hidden" name="borough_id" id="borough_id" value="7019553">
               <input type="hidden" name="pinyin" id="pinyin" value="shiliucaizhizhongxin">
               <ul class="score">
@@ -204,7 +204,7 @@
                     </li>
                   </ul>
 
-                  <div class="dp_copyinfo">(只有经过实名认证的经纪人用户才能发表信息) 网友评论仅供其表达个人看法，并不代表房屋网立场。</div>
+                  <div class="dp_copyinfo">(只有经过实名认证的经纪人用户才能发表信息) 网友评论仅供其表达个人看法，并不代表租房信息网立场。</div>
                   <div class="review-confirm f-cb">
 
                     <div class="f-fr">
@@ -774,8 +774,8 @@
             <nav id="footer-nav" class="clearfix">
               <ul>
                 <li class="current"><a href="/index.html">首页</a></li>
-                <li><a href="/premises/premises_find.html">房屋</a></li>
-                <li><a href="/news/news_info.html">房东的故事</a></li>
+                <li><a href="/premises/premises_find.html">租房信息</a></li>
+                <li><a href="/news/news_info.html">闲居要闻</a></li>
               </ul>
             </nav><!--/ #footer-nav-->
 

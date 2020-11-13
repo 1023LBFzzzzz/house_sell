@@ -74,17 +74,17 @@
           </div>
 <!--          <div class="m-nav2">-->
 <!--            <ul>-->
-<!--              <li  class="this"><a :href="'/premises/premises_info.html?premise_id='+premise_id+''">房屋主页</a>-->
+<!--              <li  class="this"><a :href="'/premises/premises_info.html?premise_id='+premise_id+''">租房信息主页</a>-->
 <!--              </li>-->
 <!--              <li ><a :href="'/premises/premises_detail.html?premise_id='+premise_id+''">详细信息</a>-->
 <!--              </li>-->
-<!--              <li ><a :href="'/premises/premises_dynamics.html?premise_id='+premise_id+''">房屋动态</a>-->
+<!--              <li ><a :href="'/premises/premises_dynamics.html?premise_id='+premise_id+''">租房信息动态</a>-->
 <!--              </li>-->
 <!--              <li><a :href="'/premises/premises_renderings.html?premise_id='+premise_id+''">户型图</a>-->
 <!--              </li>-->
-<!--              <li><a :href="'/premises/premises_photo.html?premise_id='+premise_id+''">房屋相册</a>-->
+<!--              <li><a :href="'/premises/premises_photo.html?premise_id='+premise_id+''">租房信息相册</a>-->
 <!--              </li>-->
-<!--              <li><a :href="'/premises/premises_remark.html?premise_id='+premise_id+''">房屋点评</a>-->
+<!--              <li><a :href="'/premises/premises_remark.html?premise_id='+premise_id+''">租房信息点评</a>-->
 <!--              </li>-->
 <!--            </ul>-->
 <!--            <div class="ck_info f-fr">资料仅供参考</div>-->
@@ -161,14 +161,14 @@
                       <div class="z_xieye">
                         <label>
                           <input type="checkbox" class="xieyi" checked="">
-                          <p class="tongyi">我已阅读并同意 <a style="margin-left:0; padding-left:0" href="http://user.loupan.com/home/pro" target="_blank">《房屋网用户服务协议》</a>
+                          <p class="tongyi">我已阅读并同意 <a style="margin-left:0; padding-left:0" href="http://user.loupan.com/home/pro" target="_blank">《租房信息网用户服务协议》</a>
                           </p>
                         </label>
                       </div>
                     </div>
                   </div>
                 </li>
-                <li><span class="tit">房屋户型：</span>
+                <li><span class="tit">租房信息户型：</span>
                   <div class="con">
                     <p>一室一厅一卫</p>
                   </div>
@@ -200,7 +200,7 @@
 
               <div class="new_icon">
                 <div class="jiang-box alert-box post alert-box1" style="display: none;" data-action="/group_buy/group_buy_sign_in"><b></b><em class="jia-closeBtn closeBtn">X</em>
-                  <p>填写真实手机号码，可第一时间免费获取【石榴财智中心】最新价格变动或房屋动态</p>
+                  <p>填写真实手机号码，可第一时间免费获取【石榴财智中心】最新价格变动或租房信息动态</p>
                   <input type="text" class="user-phone" name="mobile" gbstyle="mobile" maxlength="11" placeholder="您的手机号">
                   <input type="hidden" name="house" value="7019553">
                   <input type="hidden" name="site_id" value="196">
@@ -252,8 +252,8 @@
         <div class="f5" style="margin-top: 30px;">
           <div class="m-mes">
             <div class="hd">
-              <h2 class="tit">{{premise.premises_name}}房屋评论</h2>
-              <p>8人评论了该房屋</p>
+              <h2 class="tit">{{premise.premises_name}}租房信息评论</h2>
+              <p>8人评论了该租房信息</p>
               <a href="/comment/7019553.html" class="more">更多 ></a>
             </div>
             <div class="scope">
@@ -274,13 +274,13 @@
               </div>
             </div>
             <dl class="kf"><dt><img src="http://public.loupan.com/public/assets_v3/images/48-48.png" width="48" height="48" data-bd-imgshare-binded="1"><span>小编点评</span></dt>
-              <dd>房屋内部精心打造纯私密办公空间，每栋独享私有入户花园。商务公馆采用独栋形态，高2-4层，单体面积约50-200㎡。掩映于绿树之间，私享窗外水岸美景，绿地公园尽收眼底。优雅、清静，乐享完全属于自身的办公天地。</dd>
+              <dd>租房信息内部精心打造纯私密办公空间，每栋独享私有入户花园。商务公馆采用独栋形态，高2-4层，单体面积约50-200㎡。掩映于绿树之间，私享窗外水岸美景，绿地公园尽收眼底。优雅、清静，乐享完全属于自身的办公天地。</dd>
             </dl>
             <div class="bd" id="UserZan">暂无评论</div>
           </div>
           <div class="m-rank">
             <div class="hd">
-              <div class="tit">热评房屋</div>
+              <div class="tit">热评租房信息</div>
             </div>
             <div class="bd">
               <div class="item">
@@ -406,10 +406,10 @@
                   <a href="/index.html">首页</a>
                 </li>
                 <li>
-                  <a href="/premises/premises_find.html">房屋</a>
+                  <a href="/premises/premises_find.html">租房信息</a>
                 </li>
                 <li>
-                  <a href="/news/news_info.html">房东的故事</a>
+                  <a href="/news/news_info.html">闲居要闻</a>
                 </li>
               </ul>
             </nav>

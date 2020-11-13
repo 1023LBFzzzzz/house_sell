@@ -61,7 +61,7 @@
     height: 58px;
     margin: 0 auto;
 }
-/*房屋评论*/
+/*租房信息评论*/
 .f5 .m-mes .hd {
     border-bottom: #666 2px solid;
     margin: 0;
@@ -260,7 +260,7 @@
     /*background: url(../images/com-list-09.png) no-repeat;*/
     margin-top: 3px;
 }
-/*房屋相册*/
+/*租房信息相册*/
 .f6 {
     height: 280px;
     padding: 10px 20px;
@@ -284,7 +284,7 @@
     text-align: center;
     color: #666;
 }
-/*同价位房屋*/
+/*同价位租房信息*/
 .f8 {
     border: #ddd 1px solid;
     padding: 10px 20px;
@@ -382,7 +382,7 @@
     float: left;
     width: 150px;
 }
-/*感兴趣房屋*/
+/*感兴趣租房信息*/
  .f9 {
  	height: 250px;
     border: 1px solid #ddd;

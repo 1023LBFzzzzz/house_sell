@@ -66,8 +66,8 @@
             <ul>
               <li><a href="/index.html">首页</a>
               </li>
-              <li><a href="/premises/premises_find.html">房屋</a></li>
-              <li class="current"><a href="/news/news_info.html">房东的故事</a>
+              <li><a href="/premises/premises_find.html">租房信息</a></li>
+              <li class="current"><a href="/news/news_info.html">闲居要闻</a>
               </li>
             </ul>
           </nav><!--/ #navigation-->
@@ -84,7 +84,7 @@
           </div> -->
           <div class="m-list-new f-htab" style="float:left; ">
             <div class="tab-hd">
-              <h1 class="tit"><span class="s-fc1"><a href="#">房东的故事 > </a><a href="#">故事屋</a></span></h1>
+              <h1 class="tit"><span class="s-fc1"><a href="#">闲居要闻 > </a><a href="#">故事屋</a></span></h1>
             </div>
             <ul class="bd">
               <li v-for="news in list">
@@ -132,8 +132,8 @@
             <nav id="footer-nav" class="clearfix">
               <ul>
                 <li class="current"><a href="/index.html">首页</a></li>
-                <li><a href="/premises/premises_find.html">房屋</a></li>
-                <li><a href="/news/news_info.html">房东的故事</a></li>
+                <li><a href="/premises/premises_find.html">租房信息</a></li>
+                <li><a href="/news/news_info.html">闲居要闻</a></li>
               </ul>
             </nav><!--/ #footer-nav-->
             <!--/ #footer-nav-->

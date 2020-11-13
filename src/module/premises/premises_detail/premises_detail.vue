@@ -109,14 +109,14 @@
             <dl><dt>基本信息</dt>
               <dd>
                 <ul class="f-cb">
-                  <li class="line"><span class="tit">房屋租价</span><i class="s-fc1">{{premise.premises_avgprice}}</i>元/晚</li>
+                  <li class="line"><span class="tit">租房信息租价</span><i class="s-fc1">{{premise.premises_avgprice}}</i>元/晚</li>
                   <li><span class="tit">单元数量</span>{{premise.floor_count}}</li>
                   <li><span class="tit">车位数量</span>{{premise.parking_space}}</li>
-                  <li title="电梯安装入户，中央空调根据需求安装调整"><span class="tit">房屋特色</span>{{premise.premises_feature}}</li>
+                  <li title="电梯安装入户，中央空调根据需求安装调整"><span class="tit">租房信息特色</span>{{premise.premises_feature}}</li>
                   <li class="f-dh"><span class="tit">容积率</span> {{subString(premise.build_area/premise.all_area)}} <span class="s-fc2">[关于容积率]</span>
                     <div class="d-item f-dn">
                       <h3>什么是容积率?</h3>
-                      <p>容积率，是指一个小区的总建筑面积与用地面积的比率。对于开发商来说，容积率决定地价成本在房屋中占的比例，而对于住户来说，容积率直接涉及到居住的舒适度。一个良好的居住小区，高层住宅容积率应不超过5，多层住宅应不超过2，绿地率应不低于30%。但由于受土地成本的限制，并不是所有项目都能做得到。</p>
+                      <p>容积率，是指一个小区的总建筑面积与用地面积的比率。对于开发商来说，容积率决定地价成本在租房信息中占的比例，而对于住户来说，容积率直接涉及到居住的舒适度。一个良好的居住小区，高层住宅容积率应不超过5，多层住宅应不超过2，绿地率应不低于30%。但由于受土地成本的限制，并不是所有项目都能做得到。</p>
                     </div>
                   </li>
                   <li class="f-dh"><span class="tit">绿化率</span> {{subString(premise.green_area/premise.all_area)*100}}%<span class="s-fc2" id="s-fc2">[关于绿化率]</span>
@@ -170,7 +170,7 @@
 <!--              </div>-->
 <!--            </dl>-->
 <!--            <dl><dt>小区配套</dt>-->
-<!--              <dd>园区食堂、24小时保安值班、公共区域的保洁服务；公共景观、绿化维护服务；观光车接驳服务；信函、报刊分拣及送达服务；公共设施、设备保养服务；房屋维修服务等。</dd>-->
+<!--              <dd>园区食堂、24小时保安值班、公共区域的保洁服务；公共景观、绿化维护服务；观光车接驳服务；信函、报刊分拣及送达服务；公共设施、设备保养服务；租房信息维修服务等。</dd>-->
 <!--            </dl>-->
 <!--            <dl><dt>交通状况</dt>-->
 <!--              <dd>公交：42、45、56、65、66、302、11路，草场门大桥东站，20、60、91、133、303、317路，清凉门桥站-->
@@ -198,13 +198,13 @@
               <li class="border_none">
                 <h6 class="h_ico1">整套出租</h6>
 
-                <p>房屋面积：18平米
-                  <br>房屋户型：1室0厅1卫0厨0阳台</p>
+                <p>租房信息面积：18平米
+                  <br>租房信息户型：1室0厅1卫0厨0阳台</p>
               </li>
               <li>
                 <h6 class="h_ico2">宜住2人</h6>
 
-                <p>房客独享整套房屋</p>
+                <p>房客独享整套租房信息</p>
               </li>
               <li>
                 <h6 class="h_ico3">共2张</h6>
@@ -333,8 +333,8 @@
             <nav id="footer-nav" class="clearfix">
               <ul>
                 <li class="current"><a href="/index.html">首页</a></li>
-                <li><a href="/premises/premises_find.html">房屋</a></li>
-                <li><a href="/news/news_info.html">房东的故事</a></li>
+                <li><a href="/premises/premises_find.html">租房信息</a></li>
+                <li><a href="/news/news_info.html">闲居要闻</a></li>
               </ul>
             </nav><!--/ #footer-nav-->
 

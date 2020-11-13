@@ -928,7 +928,7 @@
                 <div class="clear">
                   <table width="100%" border="0" cellpadding="0" cellspacing="0">
                     <tbody><tr>
-                      <th valign="middle" width="22%" align="left" height="35">房屋总价</th>
+                      <th valign="middle" width="22%" align="left" height="35">租房信息总价</th>
                       <th valign="middle" width="78%" align="left">收费标准（总价×比例）</th>
                     </tr>
                     <tr>
@@ -1039,7 +1039,7 @@
                   <td class="tabletitle">适合人群</td>
                 </tr>
                 <tr>
-                  <td class="tabletext">固定利率房屋贷款</td>
+                  <td class="tabletext">固定利率租房信息贷款</td>
                   <td class="tabletext">3473.41元（本息3年）</td>
                   <td class="tabletext">一手房贷款、二手房贷款</td>
                   <td class="tabletext">在中国境内购房且年满18周</td>
@@ -1249,7 +1249,7 @@
                   <td class="tabletitle">适合人群</td>
                 </tr>
                 <tr>
-                  <td class="tabletext">固定利率房屋贷款</td>
+                  <td class="tabletext">固定利率租房信息贷款</td>
                   <td class="tabletext">5,820元（本息10年）</td>
                   <td class="tabletext">一、二手房贷款</td>
                   <td class="tabletext">在中国境内购房且年满18周</td>
@@ -1261,7 +1261,7 @@
                   <td class="tabletext">想随意变化组合还款计划者</td>
                 </tr>
                 <tr>
-                  <td class="tabletext">个人房屋净值贷款</td>
+                  <td class="tabletext">个人租房信息净值贷款</td>
                   <td class="tabletext">2921.51元（58个月）</td>
                   <td class="tabletext">一手、二手房贷款、非交易</td>
                   <td class="tabletext">有个人房产且房产未设定抵</td>

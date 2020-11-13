@@ -75,17 +75,17 @@
           </div>
           <div class="m-nav2">
             <ul>
-              <li ><a :href="'/premises/premises_info.html?premise_id='+premise_id+''">房屋主页</a>
+              <li ><a :href="'/premises/premises_info.html?premise_id='+premise_id+''">租房信息主页</a>
               </li>
               <li ><a :href="'/premises/premises_detail.html?premise_id='+premise_id+''">详细信息</a>
               </li>
-              <li ><a :href="'/premises/premises_dynamics.html?premise_id='+premise_id+''">房屋动态</a>
+              <li ><a :href="'/premises/premises_dynamics.html?premise_id='+premise_id+''">租房信息动态</a>
               </li>
               <li class="this"><a :href="'/premises/premises_renderings.html?premise_id='+premise_id+''">户型图</a>
               </li>
-              <li><a :href="'/premises/premises_photo.html?premise_id='+premise_id+''">房屋相册</a>
+              <li><a :href="'/premises/premises_photo.html?premise_id='+premise_id+''">租房信息相册</a>
               </li>
-              <li><a :href="'/premises/premises_remark.html?premise_id='+premise_id+''">房屋点评</a>
+              <li><a :href="'/premises/premises_remark.html?premise_id='+premise_id+''">租房信息点评</a>
               </li>
             </ul>
             <div class="ck_info f-fr">资料仅供参考</div>
@@ -136,7 +136,7 @@
                   <div id="jiang-box" class="jiang-box alert-box post alert-box1"
                        style="display: none;">
                     <form id="house_dingyue_form" action="/group_buy/house_dingyue" method="post"><b></b><em class="jia-closeBtn closeBtn">X</em>
-                      <p>填写真实手机号码，可第一时间免费获取【<span class="house_name"></span>】最新价格变动或房屋动态</p>
+                      <p>填写真实手机号码，可第一时间免费获取【<span class="house_name"></span>】最新价格变动或租房信息动态</p>
                       <input type="text" class="user-phone required" name="group[mobile]" gbstyle="mobile" maxlength="11" placeholder="请填写您的手机号码">
                       <input type="hidden" name="group[house]" value="">
                       <input type="hidden" name="group[site_id]" value="">
@@ -147,7 +147,7 @@
                 </li>
                 <li><b class="tit">最新上架：</b>{{dealTime(premise.open_time)}}
                 </li>
-                <li><b class="tit">房屋地址：</b>{{premise.position}}</li>
+                <li><b class="tit">租房信息地址：</b>{{premise.position}}</li>
               </ul>
             </div>
           </aside>
@@ -167,8 +167,8 @@
             <nav id="footer-nav" class="clearfix">
               <ul>
                 <li class="current"><a href="/index.html">首页</a></li>
-                <li><a href="/premises/premises_find.html">房屋</a></li>
-                <li><a href="/news/news_info.html">房东的故事</a></li>
+                <li><a href="/premises/premises_find.html">租房信息</a></li>
+                <li><a href="/news/news_info.html">闲居要闻</a></li>
               </ul>
             </nav><!--/ #footer-nav-->
 

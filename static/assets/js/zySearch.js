@@ -43,7 +43,7 @@
 
 				var html = '';
 				html += '<b class="search-img"></b>';
-				html += '<input id="searchInput" class="search-input" type="text" placeholder="请输入关键字（小区，学校或房屋名）">';
+				html += '<input id="searchInput" class="search-input" type="text" placeholder="请输入关键字（小区，学校或租房信息名）">';
 				html += '<button class="search-btn btn">搜索</button>';
 
 				$(self).append(html);

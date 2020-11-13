@@ -219,8 +219,8 @@
             <nav id="footer-nav" class="clearfix">
               <ul>
                 <li class="current"><a href="/index.html">首页</a></li>
-                <li><a href="/premises/premises_find.html">房屋</a></li>
-                <li><a href="/news/news_info.html">房东的故事</a></li>
+                <li><a href="/premises/premises_find.html">租房信息</a></li>
+                <li><a href="/news/news_info.html">闲居要闻</a></li>
               </ul>
             </nav><!--/ #footer-nav-->
 

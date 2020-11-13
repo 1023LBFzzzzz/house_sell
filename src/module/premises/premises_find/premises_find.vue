@@ -53,8 +53,8 @@
             <ul>
               <li ><a href="/index.html">首页</a>
               </li>
-              <li class="current"><a href="/premises/premises_find.html">房屋</a></li>
-              <li><a href="/news/news_info.html">房东的故事</a>
+              <li class="current"><a href="/premises/premises_find.html">租房信息</a></li>
+              <li><a href="/news/news_info.html">闲居要闻</a>
               </li>
             </ul>
           </nav><!--/ #navigation-->
@@ -68,7 +68,7 @@
           <button class="search-btn btn" @click="search()">搜索</button></span>
         </div>
         <div class="content-wrapper sbr clearfix">
-          <div id="show1" style="box-shadow: 0px 0px 4px rgba(0, 0, 0, .2);">房屋搜索</div>
+          <div id="show1" style="box-shadow: 0px 0px 4px rgba(0, 0, 0, .2);">租房信息搜索</div>
           <div id="wrap">
             <section id="section">
               <nav id="choose">你的选择:
@@ -87,7 +87,7 @@
           <div style="border: 1px solid #F8F8F8;background-color: #EBEEEB;margin-top: 60px;">
             <div style="height: 60px;background-color: #F8F8F8;line-height: 60px;">
               <ul style="float: left;">
-                <li style="text-align: center;font-size: 14px;width: 100%;padding-left:20px;background-color: #EBEEEB;"><a href="">全部房屋<i> (数量)</i></a></li>
+                <li style="text-align: center;font-size: 14px;width: 100%;padding-left:20px;background-color: #EBEEEB;"><a href="">全部租房信息<i> (数量)</i></a></li>
               </ul>
               <div class="sort" style="float: right;height: 60px;line-height: 60px;text-align: center;">
                 <ul class="sorts" >
@@ -120,7 +120,7 @@
               </li>
             </ul>
             <div v-if="list===null" class="bd" style="font-size: 20px;line-height: 28px;margin: 30px;">
-              抱歉没有找到相关房屋
+              抱歉没有找到相关租房信息
             </div>
             <div>
               <div class="page"  v-show="show">
@@ -141,7 +141,7 @@
 
           </div><!--/ .content-wrapper-->
           <div class="houseFocus">
-            <h2>猜你可能喜欢的房屋</h2>
+            <h2>猜你可能喜欢的租房信息</h2>
             <ul style="height: 200px;">
               <li v-for="arr in attentionList">
                 <a :href="'/premises/premises_info.html?premise_id='+arr.premises_id+''">
@@ -161,8 +161,8 @@
               <nav id="footer-nav" class="clearfix">
                 <ul>
                   <li><a href="/index.html">首页</a></li>
-                  <li  class="current"><a href="/premises/premises_find.html">房屋</a></li>
-                  <li><a href="/news/news_info.html">房东的故事</a></li>
+                  <li  class="current"><a href="/premises/premises_find.html">租房信息</a></li>
+                  <li><a href="/news/news_info.html">闲居要闻</a></li>
                 </ul>
               </nav><!--/ #footer-nav-->
 
