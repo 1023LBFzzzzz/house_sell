@@ -45,7 +45,7 @@
         <header id="header" class="clearfix">
 
           <div id="logo">
-            <h1><a href="index.html"><img src="/static/static/image/logo.png"  class="logo"/></a></h1>
+            <h1><a href="index.html"><img src="/static/static/image/epad.jpg"  class="logo"/></a></h1>
             <input v-if="str!=null" class="slogan" type="text" style="background:none; outline:none; border:0px;font-size: 16px; font-weight: bold;"  placeholder="选择城市" id="inputTest" readonly="readonly" v-model='str' v-on:change="changeCity"/>
           </div><!--/ #logo-->
 
@@ -84,18 +84,16 @@
           <!-- ********** - Sidebar - ************ -->
           <!-- ********** - END Sidebar - ************ -->
 
-          <div style="border: 1px solid #F8F8F8;background-color: #EBEEEB;margin-top: 60px;">
-            <div style="height: 60px;background-color: #F8F8F8;line-height: 60px;">
-              <ul style="float: left;">
-                <li style="text-align: center;font-size: 14px;width: 100%;padding-left:20px;background-color: #EBEEEB;"><a href="">全部租房信息<i> (数量)</i></a></li>
-              </ul>
-              <div class="sort" style="float: right;height: 60px;line-height: 60px;text-align: center;">
-                <ul class="sorts" >
-                  <li><a href="">默认排序<i class="tb-icon"></i></a></li>
-                  <li><a href=""> 售价<i class="tb-icon"></i></a></li>
-                </ul>
-              </div>
+          <div style="border: 1px solid #F8F8F8;background: #fff;margin-top: 60px;border-radius: 8px;">
+            <div class="zu-tab"><a href="#" class="curTab">全部租房信息(数量)</a></div>
+            <div class="zu-sort">
+            <span class="tit">为您找到<em>南京</em>附近租房</span>
+            <div class="sort-cond">
+                <span>排序 ：</span><a href="#" class="light">默认
+                </a><a href="#" class="">租金<i class="icon icon-arrup"></i>
+                </a><a href="#" class="">最新<i class="icon icon-arrdown"></i></a>
             </div>
+           </div>
             <ul v-if="list!==null" class="bd" id="house_list">
               <li  v-for="premise in list" class="item f-dh">
                 <a :href="'/premises/premises_info.html?premise_id='+premise.premises_id+''" target="_blank">
@@ -139,7 +137,7 @@
               </div>
             </div>
 
-          </div><!--/ .content-wrapper-->
+          </div>
           <div class="houseFocus">
             <h2>猜你可能喜欢的租房信息</h2>
             <ul style="height: 200px;">
@@ -262,7 +260,7 @@
         pages: 0, //总页数
         changePage:'',//跳转页
         nowIndex:0,
-        str: '玄武区',
+        str: '建邺区',
         pageIndex: 1,
         pageSize: 10,
         list:[],
@@ -576,6 +574,17 @@
     list-style: none;
     margin-top: 20px;
   }
+  .houseFocus ul {
+    padding: 20px 20px 0 20px;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+  }
+  .houseFocus ul  li{
+    margin: 0;
+  }
   a {
     text-decoration: none;
   }
@@ -593,6 +602,7 @@
     height: 260px;
     -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, .2);
     box-shadow: 0px 0px 4px rgba(0, 0, 0, .2);
+    background: #fff;
   }
   #choose {
    /* width: 760px;*/
@@ -610,6 +620,8 @@
     height: 44px;
     color: #8a8a8a;
     line-height: 44px;
+    border-bottom: 1px dotted #e6e6e6;
+    margin-right: 30px;
   }
   #type a {
     margin: 0 12px 0 11px;
@@ -650,5 +662,82 @@
   }
   .bd .item {
     padding: 30px 10px 10px;
+    border-bottom: 1px dashed #e6e6e6;
   }
+ .zu-tab {
+    font-size: 0;
+    border-bottom: 2px solid #62ab00;
+    color: #fff;
+}
+.zu-tab a.curTab {
+    background: #62ab00;
+    color: #fff;
+    border: 1px solid #62ab00;
+    margin-right: 0;
+}
+.zu-tab a {
+    display: inline-block;
+    padding: 0 30px;
+    color: #666;
+    font-size: 16px;
+    line-height: 37px;
+    text-decoration: none;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-bottom-width: 0;
+    border-bottom: 0;
+    position: relative;
+    margin-right: -1px;
+    margin-bottom: -1px;
+}
+.zu-sort {
+    margin-top: 6px;
+    height: 40px;
+    line-height: 40px;
+    color: #666;
+    font-size: 13px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.zu-sort .sort-cond {
+    float: right;
+    height: 40px;
+}
+.zu-sort .sort-cond .light {
+    color: #ec6100;
+}
+.zu-sort .tit {
+    float: left;
+    padding-left: 21px;
+}
+.zu-sort .sort-cond a {
+    display: inline-block;
+    margin-right: 25px;
+    color: #666;
+    text-decoration: none;
+    outline: 0;
+    cursor: pointer;
+}
+.zu-sort .sort-cond .icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    background-image: url(//pages.anjukestatic.com/usersite/site/img/common/icons-2.0.png);
+    background-repeat: no-repeat;
+}
+.zu-sort .sort-cond i {
+    width: 16px;
+    height: 16px;
+    vertical-align: -3px;
+}
+.zu-sort .sort-cond .icon-arrdown {
+    background-position: 0 -64px;
+}
+.zu-sort .sort-cond .icon-arrup {
+    background-position: 0 -80px;
+}
+.zu-sort .tit em {
+    color: #f60;
+    padding: 0 2px 0 1px;
+}
 </style>

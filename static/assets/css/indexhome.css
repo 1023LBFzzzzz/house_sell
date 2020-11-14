@@ -102,7 +102,7 @@
 .publicTitle .search a {
   float: left;
   line-height: 40px;
-  background: #009dfc;
+  background: #E99100;
   color: #fff;
   width: 65px;
   text-align: center;
@@ -350,7 +350,7 @@
   padding-right: 15px;
 }
 .newsContent .bigList .txt .desc a {
-  color: #009dfc;
+  color: #E99100;
 }
 .newsContent .bigList .txt {
 /*  float: left;

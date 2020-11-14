@@ -439,7 +439,7 @@ export default {
     display: block;
     float: left;
     margin: 8px 22px 0 0;
-    background: url(//jci.xiaozhustatic3.com/e19092901/images/detail/xz_logo.png) no-repeat;
+    background: url(//jci.xiaozhustatic3.com/e19092901/images/detail/xz_epad.jpg) no-repeat;
     width: 84px;
     height: 40px;
     text-align: center;

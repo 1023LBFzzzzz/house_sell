@@ -58,7 +58,8 @@
 	font-family: '黑体';
 	font-size: 18px;
 /*	border-right: 1px solid #D1CDCD;
-	border-left:1px solid #D1CDCD;*/
+  border-left:1px solid #D1CDCD;*/
+  background: #fff;
 	line-height: 40px;
 	font-weight: bold;
 	padding-left: 20px;

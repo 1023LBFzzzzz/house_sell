@@ -3,7 +3,7 @@
     <header class="am-topbar  wos-header" style="margin:0px;padding: 0px" >
       <div class="am-container">
         <h1 class="am-topbar-brand">
-          <a href="#"><img src="../../../static/images/logo.png" alt=""></a>
+          <a href="#"><img src="../../../static/images/epad.jpg" alt=""></a>
         </h1>
 
         <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-warning am-show-sm-only" data-am-collapse="{target: '#collapse-head'}">
@@ -686,7 +686,7 @@
             <a href="#">友情链接</a>
           </li>
         </ul>
-        <div class="btnlogo"><img src="../../../static/images/btnlogo.png" /></div>
+        <div class="btnlogo"><img src="../../../static/images/btnepad.jpg" /></div>
         <p>Amaze UI出品<br>© 2016 AllMobilize, Inc. Licensed under MIT license. Developed with WebStorm.</p>
         <div class="w2div">
           <ul data-am-widget="gallery" class="am-gallery am-avg-sm-2am-avg-md-2 am-avg-lg-2 am-gallery-overlay" data-am-gallery="{ pureview: true }">
