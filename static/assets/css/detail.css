@@ -17,6 +17,7 @@
     border: 1px solid #ddd;
     overflow: hidden;
     color: #333;
+    background: #fff;
 }
 .main li .tit {
     float: left;

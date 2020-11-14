@@ -115,7 +115,7 @@ body, textarea, input, button, select, keygen, legend {
 }
  .bd .item {
      /*padding: 30px 10px 10px;*/
-    border-bottom: 1px dashed #FFF;
+    border-bottom: 1px dashed #ddd;
     overflow: hidden;
 }
  .info .type {
@@ -448,7 +448,7 @@ body, textarea, input, button, select, keygen, legend {
     white-space: nowrap;
 }
 .dynamic .tl-item .txt a {
-    color: #E99100;
+    color: #ef7384;
 }
 .dynamic {
 

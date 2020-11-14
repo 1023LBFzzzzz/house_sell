@@ -14,7 +14,7 @@
   /*padding: 20px 0 0px 20px;*/
   margin-bottom: 20px;
   text-align: center;
-  background: #EBEEEB;
+  background: #fff;
   border-radius: 5px;
 }
  .m-hd span a {
@@ -71,6 +71,7 @@
     padding: 10px 20px;
     border: 1px solid #ddd;
     overflow: hidden;
+    background: #fff;
 }
 .f5 .m-rank {
     padding: 0;
@@ -265,6 +266,7 @@
     height: 280px;
     padding: 10px 20px;
     border: 1px solid #ddd;
+    background: #fff;
 }
 .m-hd .title {
     font-weight: normal;
@@ -279,7 +281,7 @@
 .f6 li {
     float: left;
     width: 260px;
-    margin-right: 30px;
+    /* margin-right: 30px; */
     font-size: 16px;
     text-align: center;
     color: #666;
@@ -387,6 +389,7 @@
  	height: 250px;
     border: 1px solid #ddd;
     padding: 10px 20px;
+    background: #fff;
 }
 .f9 .m-list-img .bd img {
     display: block;

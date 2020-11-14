@@ -214,12 +214,7 @@
                 </p>
               </li>
             </ul>
-            <div class="qr-box">
-              <img class="qr-back" src="http://sz.xiaozhu.com/images/applet-qrcode/detial-back.png" alt="" style="width: 940px;"> <span class="detail-qrcode-box">
-                <img class="inner-qrcode" src="http://image.xiaozhustatic2.com/00,480,480/22,0,11,7302,480,480,675eeb78.jpg" alt="">
-              </span>
 
-            </div>
             <div class="box_white clearfix detail_intro_item" hideheight="135" showheight="120">
               <div class="info_l"> <span class="info_ico1"></span>
 
@@ -517,13 +512,14 @@ export default {
   .nav_l {
     float: left;
     width: 930px;
+    background: #ef7384;
   }
   .nav_r {
     float: left;
     font-size: 14px;
     padding: 0 15px;
     width: 280px;
-    background: #222f3d;
+    background:  #ef7384;
     color: #fff;
   }
   .xz_logo {
@@ -550,7 +546,7 @@ export default {
     cursor: pointer;
   }
   .nav_l li.cur, .nav_l li:hover {
-    background: #3e5871;
+    background: #f6c4c6;
   }
   .fl {
     float: left !important;
@@ -701,6 +697,7 @@ export default {
   .wrap {
     font: normal 14px/24px "Microsoft YaHei";
     color: #2c3e50;
+    background: #fff;
   }
   .qr-box .inner-qrcode {
     width: 100%;

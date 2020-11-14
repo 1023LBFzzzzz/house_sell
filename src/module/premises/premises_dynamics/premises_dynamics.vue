@@ -426,13 +426,14 @@ export default {
   .nav_l {
     float: left;
     width: 930px;
+     background: #ef7384;
   }
   .nav_r {
     float: left;
     font-size: 14px;
     padding: 0 15px;
     width: 280px;
-    background: #222f3d;
+    background:  #ef7384;
     color: #fff;
   }
   .xz_logo {
@@ -459,7 +460,7 @@ export default {
     cursor: pointer;
   }
   .nav_l li.cur, .nav_l li:hover {
-    background: #3e5871;
+    background: #f6c4c6;
   }
   .fl {
     float: left !important;

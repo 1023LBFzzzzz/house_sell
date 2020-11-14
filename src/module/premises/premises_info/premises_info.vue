@@ -144,11 +144,11 @@
                 <li class="price"><span class="tit"> 租赁价格： </span>
                   <p class="con"><span class="u-price"><b class="s-fc1" style="font-size: 36px;color: #f05b72;"> {{premise.premises_avgprice}} </b> 元/每晚&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b class="s-fc1" style="font-size: 36px;color: #f05b72;"> 2400 </b> 元/每月</span></p>
                 </li>
-                <li class="tuan"><span class="tit">租房优惠：</span>
+                <!-- <li class="tuan"><span class="tit">租房优惠：</span>
                   <div class="con">
                     <p>立即预订，独享租房优惠。</p><span class="num"><i class="tb-icon"></i>已有8人参与</span>
                   </div>
-                </li>
+                </li> -->
                 <li><span class="tit">租房地址：</span>
                   <div class="con"><span class="adr">{{premise.position}} </span>
                     <a href="#zhoubianpeitao">[地图]</a>
@@ -177,11 +177,11 @@
                 <li><span class="tit">装修情况：</span>
                   <div class="con">精装修</div>
                 </li>
-                <li class="more">
+                <!-- <li class="more">
                   <a :href="'/premises/premises_ar.html?premise_id='+premise_id+''">更多资料></a>
-                </li>
+                </li> -->
               </ul>
-              <div class="order_btn_container" style="margin-left: 80px;">
+              <div class="order_btn_container" >
              <div class="block">
                   <el-date-picker
                     v-model="value6"
@@ -260,7 +260,7 @@
               <div class="zhpf-left">
                 <div class="zhpf-top1">
                   <h3>综合评价</h3>
-                  <p>77</p><span>分</span>
+                  <p>88</p><span>分</span>
                   <ul class="star">
                     <li></li>
                     <li></li>
@@ -273,8 +273,8 @@
                 <a :href="'/premises/premises_remark.html?premise_id='+premise_id+''" class="yelp f-fr" target="_blank">写评论</a>
               </div>
             </div>
-            <dl class="kf"><dt><img src="http://public.loupan.com/public/assets_v3/images/48-48.png" width="48" height="48" data-bd-imgshare-binded="1"><span>小编点评</span></dt>
-              <dd>租房信息内部精心打造纯私密办公空间，每栋独享私有入户花园。商务公馆采用独栋形态，高2-4层，单体面积约50-200㎡。掩映于绿树之间，私享窗外水岸美景，绿地公园尽收眼底。优雅、清静，乐享完全属于自身的办公天地。</dd>
+            <dl class="kf"><dt><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1605326480098&di=955dcf47c60800d415f09155a6d5615d&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fforum%2Fw%3D580%2Fsign%3D580e773405f431adbcd243317b37ac0f%2F50f2f9dde71190ef9c7f0079c71b9d16fffa60dc.jpg" width="48" height="48" data-bd-imgshare-binded="1"><span>小编点评</span></dt>
+              <dd>据我了解，那一块儿的房租都在四五千左右。2500肯定是一间房子的房租。但是如果你对地点没有要求的话。九堡附近2000多也可以租到两居室的房子，有电梯的，车位自己到物业租。</dd>
             </dl>
             <div class="bd" id="UserZan">暂无评论</div>
           </div>
@@ -285,74 +285,74 @@
             <div class="bd">
               <div class="item">
                 <a href="#" class="img">
-                  <img src="http://static.loupan.com/upfile/image/20151029/20151029111637_31951.jpg" alt="恒大•" data-bd-imgshare-binded="1">
+                  <img src="https://pic1.ajkimg.com/display/anjuke/ef5625f48c9816071355f6e4717e2292/600x450c.jpg?t=1&srotate=1" alt="恒大•" data-bd-imgshare-binded="1">
                 </a>
                 <div class="text">
-                  <a href="#" class="t">恒大•</a>
-                  <div class="p">286元</div>
+                  <a href="#" class="t">西溪印象城</a>
+                  <div class="p">256元</div>
                   <div class="s">
                     <ul class="star">
                       <li></li>
                       <li class="half"></li>
                     </ul>
-                    <p>22.8分</p>
-                  </div>
-                  <div class="l">2条评论</div>
-                </div>
-              </div>
-              <div class="item">
-                <a href="#" class="img">
-                  <img src="http://static.loupan.com/upfile/image/20150210/20150209181527_76279_small.jpg" alt="岱山保障房项目" data-bd-imgshare-binded="1">
-                </a>
-                <div class="text">
-                  <a href="#" class="t">mini屋</a>
-                  <div class="p">298元</div>
-                  <div class="s">
-                    <ul class="star">
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li class="half"></li>
-                    </ul>
-                    <p>72.6分</p>
-                  </div>
-                  <div class="l">9条评论</div>
-                </div>
-              </div>
-              <div class="item">
-                <a href="#" class="img">
-                  <img src="http://static.loupan.com/upfile/image/20150210/20150209181529_81329_small.jpg" alt="雅居乐滨江花园" data-bd-imgshare-binded="1">
-                </a>
-                <div class="text">
-                  <a href="#" class="t">雅居乐滨江花园</a>
-                  <div class="p">160元</div>
-                  <div class="s">
-                    <ul class="star">
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li class="half"></li>
-                    </ul>
-                    <p>68.8分</p>
-                  </div>
-                  <div class="l">5条评论</div>
-                </div>
-              </div>
-              <div class="item">
-                <a href="#" class="img">
-                  <img src="http://static.loupan.com/upfile/image/20150309/20150309162647_54596.jpg" alt="罗托鲁拉小镇" data-bd-imgshare-binded="1">
-                </a>
-                <div class="text">
-                  <a href="#" class="t">罗托鲁拉小镇</a>
-                  <div class="p">260元</div>
-                  <div class="s">
-                    <ul class="star">
-                      <li></li>
-                      <li class="half"></li>
-                    </ul>
-                    <p>30.4分</p>
+                    <p>18.6分</p>
                   </div>
                   <div class="l">4条评论</div>
+                </div>
+              </div>
+              <div class="item">
+                <a href="#" class="img">
+                  <img src="https://pic1.ajkimg.com/display/anjuke/1fa7722b11ccc3a4968c655f49d0104c/600x450c.jpg?t=1&srotate=1" alt="钱江世纪城" data-bd-imgshare-binded="1">
+                </a>
+                <div class="text">
+                  <a href="#" class="t">钱江世纪城</a>
+                  <div class="p">278元</div>
+                  <div class="s">
+                    <ul class="star">
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li class="half"></li>
+                    </ul>
+                    <p>52.6分</p>
+                  </div>
+                  <div class="l">100条评论</div>
+                </div>
+              </div>
+              <div class="item">
+                <a href="#" class="img">
+                  <img src="https://pic1.ajkimg.com/display/anjuke/48cb4fd6a49b01f4a97b4277df758f20/600x450c.jpg?t=1&srotate=1" alt="景瑞天赋" data-bd-imgshare-binded="1">
+                </a>
+                <div class="text">
+                  <a href="#" class="t">景瑞天赋</a>
+                  <div class="p">170元</div>
+                  <div class="s">
+                    <ul class="star">
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li class="half"></li>
+                    </ul>
+                    <p>58.8分</p>
+                  </div>
+                  <div class="l">90条评论</div>
+                </div>
+              </div>
+              <div class="item">
+                <a href="#" class="img">
+                  <img src="https://pic1.ajkimg.com/display/anjuke/5a8917cc65825c967d204be1b994ff13/600x450c.jpg?t=1&srotate=1" alt="万和国际龙湖天璞" data-bd-imgshare-binded="1">
+                </a>
+                <div class="text">
+                  <a href="#" class="t">万和国际龙湖天璞</a>
+                  <div class="p">280元</div>
+                  <div class="s">
+                    <ul class="star">
+                      <li></li>
+                      <li class="half"></li>
+                    </ul>
+                    <p>35.4分</p>
+                  </div>
+                  <div class="l">40条评论</div>
                 </div>
               </div>
             </div>
@@ -854,13 +854,14 @@ import {format} from "silly-datetime";
   .nav_l {
     float: left;
     width: 930px;
+     background: #ef7384;
   }
   .nav_r {
     float: left;
     font-size: 14px;
     padding: 0 15px;
     width: 280px;
-    background: #222f3d;
+    background:  #ef7384;
     color: #fff;
   }
   .xz_logo {
@@ -887,7 +888,7 @@ import {format} from "silly-datetime";
     cursor: pointer;
   }
   .nav_l li.cur, .nav_l li:hover {
-    background: #3e5871;
+    background: #f6c4c6;
   }
   .fl {
     float: left !important;
@@ -919,6 +920,10 @@ import {format} from "silly-datetime";
     color: #fff;
     font-size: 18px;
     text-decoration: none;
+  }
+  .bd ul{
+    display: flex;
+    justify-content: space-between;
   }
 
 </style>
