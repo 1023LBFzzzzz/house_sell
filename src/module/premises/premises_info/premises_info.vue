@@ -563,11 +563,13 @@ import {format} from "silly-datetime";
                 this.$message.error('请选择预定日期  ');
                 return
             }
+            console.log(this.user)
              let params = {
                   startTime: this.startTime,
                   endTime: this.endTime,
                   premiseId: this.premise_id,
-                  userId: this.user.cus_id
+                  userId: this.user.cus_id,
+                  telphone: this.user.telphone,
               }
               this.$http.post('/neusoft/premise/order/appoint', params).then(response => {
                   var res = response.body
@@ -576,7 +578,7 @@ import {format} from "silly-datetime";
                   } else if (res.isSuccess === 4) {
                     this.$message.error('预定失败');
                   } else {
-                      this.list=null
+                    this.$message.error(res.errorMsg);
                   }
               })
           },
@@ -611,11 +613,12 @@ import {format} from "silly-datetime";
             let list =  res.result.list
             this.pickerOptions1 = {
                 disabledDate(time) {
-                  if(list.length !== 0) {
+                  return time.getTime() < Date.now() - 8.64e7;
+             /*     if(list.length !== 0) {
                      return time.getTime()<(new Date(list[0].endTime)).valueOf() && time.getTime() > (new Date(list[0].startTime)).valueOf()- 8.64e7 || time.getTime() < Date.now() - 8.64e7;
                   } else {
-                     return time.getTime() < Date.now() - 8.64e7;
-                  }
+
+                  }*/
                 },
             }
             let str = this.premise.photo.split('|')
