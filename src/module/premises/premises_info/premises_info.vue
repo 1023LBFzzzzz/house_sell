@@ -142,7 +142,7 @@
             <div class="meta" style="float: right;width: 500px;margin-top: 50px;">
               <ul>
                 <li class="price"><span class="tit"> 租赁价格： </span>
-                  <p class="con"><span class="u-price"><b class="s-fc1" style="font-size: 36px;color: #f05b72;"> {{premise.premises_avgprice}} </b> 元/每晚&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b class="s-fc1" style="font-size: 36px;color: #f05b72;"> 2400 </b> 元/每月</span></p>
+                  <p class="con"><span class="u-price"><b class="s-fc1" style="font-size: 36px;color: #5bb9f0;"> {{premise.premises_avgprice}} </b> 元/每晚&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b class="s-fc1" style="font-size: 36px;color: #5bb9f0;"> 2400 </b> 元/每月</span></p>
                 </li>
                 <!-- <li class="tuan"><span class="tit">租房优惠：</span>
                   <div class="con">
@@ -899,7 +899,7 @@ import {format} from "silly-datetime";
     font-family: "Microsoft YaHei"!important;
   }
   .header_bg {
-    background: #243545;
+    background: #ef7384;
     width: 100%;
   }
   .nav_l li a {
@@ -916,7 +916,7 @@ import {format} from "silly-datetime";
     height: 44px;
     line-height: 44px;
     text-align: center;
-    background: #f05b72;
+    background: #5bb9f0;
     color: #fff;
     font-size: 18px;
     text-decoration: none;

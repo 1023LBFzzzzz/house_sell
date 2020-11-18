@@ -471,7 +471,7 @@ export default {
     font-family: "Microsoft YaHei"!important;
   }
   .header_bg {
-    background: #243545;
+    background: #ef7384;
     width: 100%;
   }
   .nav_l li a {
