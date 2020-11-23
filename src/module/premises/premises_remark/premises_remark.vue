@@ -183,16 +183,14 @@
 
 
             </div>
+
             <div class="comment_form">
               <form id="house_comment_form">
-                <input type="hidden" name="house_id" id="house_id" value="7019553">
-                <input type="hidden" name="capacity" id="capacity" value="">
-                <input type="hidden" name="validate" id="validate" value="">
-                <div class="m-hd">
-                  <h2 class="tit">我要点评：</h2>
-                </div>
+                 <div class="data_box mt20" id="identityInfo">
+                  <h4 class="data_tit">我要评论<span>仅用于必要的安全环节，其他情况下将为您严格保密</span></h4>
+                 </div>
                 <div class="m-bd">
-                  <ul class="review-bd f-cb" style=" height: 150px; border: 1px solid #dbdbdb;">
+                  <ul class="review-bd f-cb" style=" height: 150px;">
                     <li><span class="tit">作者：</span>
                       <input name="editor" id="editor" type="text" value="">
                     </li>
@@ -889,5 +887,45 @@ export default {
   }
   .dp_ico1, .dp_ico2 {
     background: url(//jci.xiaozhustatic2.com/e20201109/images/detail/sprice.png) no-repeat;
+}
+.data_box {
+    font: normal 14px/22px "Microsoft YaHei";
+    color: #2c3e50;
+    padding: 0 20px;
+    position: relative;
+    background: transparent;
+}
+.data_tit {
+    border-bottom: 1px solid #eee;
+    height: 52px;
+    line-height: 52px;
+    color: #30c3a6;
+}
+.data_tit>span {
+    font-size: 14px;
+    color: #959ea7;
+    font-weight: normal;
+    margin-left: 20px;
+}
+.data_norms li {
+    font-size: 14px;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+.data_norms li>label {
+    margin-right: 20px;
+    color: #959ea7;
+}
+.data_norms li>.data_notfilled {
+    color: #c2cacd;
+    font-size: 14px;
+}
+.dp_copyinfo{
+  margin-left: 20px;
+}
+.f-fr{
+  margin-right: 20px;
 }
 </style>
