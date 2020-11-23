@@ -193,128 +193,141 @@
 <!--              </dd>-->
 <!--            </dl>-->
           </div>
-          <div id="introducePart" class="wrap">
-            <ul class="house_info clearfix" id="introduce">
-              <li class="border_none">
-                <h6 class="h_ico1">整套出租</h6>
+         <div id="introducePart">
+                <ul class="house_info clearfix" id="introduce">
+                    <li class="border_none">
+                        <h6 class="h_ico1">整套出租</h6>
+                        <p>房屋面积：70平米<br>                            房屋户型：1室2厅2卫1厨0阳台
+                        </p>                    </li>
+                    <li>
+                        <h6 class="h_ico2">宜住3人</h6>
+                        <p>
+                                                        房客独享整套房屋
+                                                    </p>
+                    </li>
+                    <li>
+                        <h6 class="h_ico3">共2张</h6>
+                        <p>
 
-                <p>租房信息面积：18平米
-                  <br>租房信息户型：1室0厅1卫0厨0阳台</p>
-              </li>
-              <li>
-                <h6 class="h_ico2">宜住2人</h6>
+                            双人床：1.8m宽 × 2m长
+                            ×1张<br>
 
-                <p>房客独享整套租房信息</p>
-              </li>
-              <li>
-                <h6 class="h_ico3">共2张</h6>
+                            沙发：1.5m宽 × 2m长
+                            ×1张<br>
+                                                    </p>
+                    </li>
+                </ul>
 
-                <p>双人床：1.2m宽 × 2m长 ×2张
-                  <br>
-                </p>
-              </li>
-            </ul>
-
-            <div class="box_white clearfix detail_intro_item" hideheight="135" showheight="120">
-              <div class="info_l"> <span class="info_ico1"></span>
-
-                <p>个性描述</p>
-              </div>
-              <div class="info_r">
-                <div class=" intro_item_content" style="overflow: hidden;">
-                  <p>人活在世界上，
-                    <br>总要有一次用尽全力的奔跑，
-                    <br>有一次切断所有后路的努力，
-                    <br>也要有一次轰轰烈烈的爱情。
-                    <br>愿你有深夜的酒，
-                    <br>谢谢你留下来。</p>
+                                <div class="box_gray clearfix detail_intro_item" hideheight="135" showheight="120">
+                    <div class="info_l">
+                        <span class="info_ico2"></span>
+                        <p>内部情况</p>
+                    </div>
+                    <div class="info_r">
+                        <div class=" intro_item_content" style="height: 120px; overflow: hidden;">
+                                                        <p>客厅、休闲角、起居室、厨房、上下层2个卫生间的每一寸设计，都为外出旅行的你提供尽可能所需。 【成都土著少女房东】将你出行的每个小细节都妥帖响应，呈现在【墨宿 more homie】的角角落落。 4.9米挑高的矩形落地窗漫射着冬季的旭日暖阳，毫无遮拦地洒进窗内。早晨出门前的一杯咖啡配三明治，你只需倚在沙发椅间，手拿【CHENGDU GUIDE】翻阅，便会为你的旅行提供与众不同的城市文化思绪。同时少女房东会为你推荐有趣的、有味的、有料的、有囍的旅行攻略，用魅力的脚步丈量城市。<br>
+不可不说， 必不可少的舒适双人床，干净舒软的被窝，精致的梳妆台，造型别致的落地镜，24小时淋浴，无限WIFI，沐浴用品一应俱全，以及厨房里配备的多士炉、电磁炉、烧水壶、微波炉等，为你暂时充饥。当然， 房东自信于成都的美食，以及自己的美食推荐，可能我们精心的厨房用具都只能成为摆设。洗衣机、冰箱、电视等家用电器为你提供【more homie】一般的舒适，以及更舒适。爱看书的少女房东的枕边书籍也一定会是你睡前的舒心读物。每一个出行的少女和少女辣妈们一定会想要精心的打扮，美美的着装，我们希望镜头前的自己，永远是那个*自信*美好的自己。房东**可为你精心准备的便是：让你在成都的街头巷尾都留下*美丽的身影和*愉悦的心情。</p>
+                                                    </div>
+                        <div class="open" style="">查看全部<span></span></div>
+                        <div class="stop" style="display:none;">收起<span></span></div>
+                    </div>
                 </div>
-              </div>
+                                                                                <div class="box_white clearfix detail_intro_item" hideheight="135" showheight="120">
+                    <div class="info_l">
+                        <span class="info_ico3"></span>
+                        <p>交通情况</p>
+                    </div>
+                    <div class="info_r">
+                        <div class=" intro_item_content" style="height: 120px; overflow: hidden;">
+                            <p>交通情况：<br>
+从双流机场乘坐2号专线转61路至麻石桥路『直线距离28公里 打车预计80左右』<br>
+从火车东站乘坐7号线转乘146路至杉板桥路西下车『直线距离11公里 打车预计20-25』<br>
+从火车北站乘坐二环K1至建设南路口，公交在SM广场下车。<br>
+小区附近就有一大型商场，500米范围内就有四个大型商场。出小区大门就有多条公交系统，可到达新南门车站去成都周边各大景点，也可方便达到春熙路、太古里、熊猫基地，锦里、宽窄巷子、武侯祠、琴台路、九眼桥等市区经典地标，不过建议使用滴滴出行方便快捷</p>
+                        </div>
+                        <div class="open" style="">查看全部<span></span></div>
+                        <div class="stop" style="display:none;">收起<span></span></div>
+                    </div>
+                </div>
+
+                                <div class=" box_gray  clearfix detail_intro_item" hideheight="135" showheight="120">
+                    <div class="info_l">
+                        <span class="info_ico4"></span>
+                        <p>周边情况</p>
+                    </div>
+                    <div class="info_r">
+                        <div class=" intro_item_content" style="height: 120px; overflow: hidden;">
+                                                        <p>小区周边配套成熟，商业非常繁荣，有SM广场、伊藤洋华堂、龙湖三千集店大型综合商场，，红旗超市、舞东风、WOWO和其他小超市十数家，小区商业街有工商银行、建设银行、浙商银行、中国银行等，包括第六人民医院（三甲）、第六省医院及诊所在内医疗机构七八家，出了小区门，周围可选择的餐厅非常多，各类火锅、串串、干锅、烧烤特色美味星罗棋布，各类地方小吃还接受外卖，豆捞、粤菜、湘菜、海鲜也有，可以在美团或糯米团购，经济实惠。如果累了，小区附近有渝富桥浴足按摩，还有盲人按摩，美容院、美发厅等。万达国际影城、影立方7731IMAX影城、UME国际影城三座电影院，东郊记忆音乐公园的IMAX很值得去感受下在这里，这可是西南地区*大的。量贩式KTV、酒吧、咖啡馆、书吧、演艺场，距离成都市东郊记忆景区步行不足10分钟，可以一并在音乐公园里感受不一样的成都味道</p>
+                                                    </div>
+                        <div class="open" style="">查看全部<span></span></div>
+                        <div class="stop" style="display:none;">收起<span></span></div>
+                    </div>
+                </div>
+
+                                                                <div class="box_white clearfix detail_intro_item" hideheight="134" showheight="130">
+                    <div class="info_l">
+                        <span class="info_ico5"></span>
+                        <p>配套设施</p>
+                    </div>
+                    <div class="info_r">
+                        <div class="intro_item_content" style="height: 130px; overflow: hidden;">
+                            <ul class="pt_list clearfix">
+                                                                                                                                <li class="s_ico_shower">热水淋浴                                </li>
+                                                                                                                                                                                                <li class="s_ico_wirelessnetwork">无线网络                                </li>
+                                                                                                                                                                                                <li class="s_ico_aircondition">空调                                </li>
+                                                                                                                                                                                                <li class="s_ico_tv">电视                                </li>
+                                                                                                                                                                                                <li class="s_ico_elevator">电梯                                </li>
+                                                                                                                                                                                                <li class="s_ico_accesssys">门禁系统                                </li>
+                                                                                                                                                                                                <li class="s_ico_washer">洗衣机                                </li>
+                                                                                                                                                                                                <li class="s_ico_icebox">冰箱                                </li>
+                                                                                                                                                                                                <li class="s_ico_parkingspace">停车位                                </li>
+                                                                                                                                                                                                <li class="s_ico_drinking">饮水设备                                </li>
+                                                                                                                                                                                                <li class="s_ico_slippers">拖鞋                                </li>
+                                                                                                                                                                                                <li class="s_ico_toiletpaper">手纸                                </li>
+                                                                                                                                                                                                <li class="s_ico_brush">牙具                                </li>
+                                                                                                                                                                                                <li class="s_ico_towel">毛巾                                </li>
+                                                                                                                                                                                                <li class="s_ico_toiletries">浴液 洗发水                                </li>
+                                                                                                                                                                                                <li class="s_ico_soap">香皂                                </li>
+                                                                                                                                                                                                <li class="s_ico_iscook">允许做饭                                </li>
+                                                                                                                                                                                                <li class="s_ico_smoke">允许吸烟                                </li>
+                                                                                                                                                                                                <li class="s_ico_suitableforchildren">适宜儿童<i title="为儿童提供保护安全、便于就寝的设施" style="display: inline-block;width:12px;height:12px;background:url(../images/icon_wenhao.png) no-repeat; background-size: 100% 100%;margin-left: 5px;"></i>
+                                </li>
+                                                                                                                                                                                                <li class="s_ico_suitableforoldpeople">适宜老人<i title="为老人提供方便进出和日常使用的设施" style="display: inline-block;width:12px;height:12px;background:url(../images/icon_wenhao.png) no-repeat; background-size: 100% 100%;margin-left: 5px;"></i>
+                                </li>
+                                                                                                                                                                                                <li class="s_ico_no">浴缸</li>
+                                                                                                                                                                                                <li class="s_ico_no">暖气</li>
+                                                                                                                                                                                                <li class="s_ico_no">有线网络</li>
+                                                                                                                                                                                                <li class="s_ico_no">允许聚会</li>
+                                                                                                                                                                                                <li class="s_ico_no">允许带宠物</li>
+                                                                                                                                                                                                <li class="s_ico_no">适宜婴幼儿</li>
+                                                                                                                                                                                                <li class="s_ico_no">适宜残疾人<i title="为残疾人提供无障碍通行和活动的设施" style="display: inline-block;width:12px;height:12px;background:url(../images/icon_wenhaogrey.png) no-repeat; background-size: 100% 100%;margin-left: 5px;"></i>
+                                </li>
+                                                                                                                            </ul>
+                        </div>
+                        <div class="open" style="">查看全部<span></span></div>
+                        <div class="stop" style="display:none;">收起<span></span></div>
+                    </div>
+                </div>
+
+                                                                <div class="box_gray clearfix detail_intro_item" hideheight="135" showheight="120">
+                    <div class="info_l">
+                        <span class="info_ico6"></span>
+                        <p>入住须知</p>
+                    </div>
+                    <div class="info_r">
+                        <div class="info_text_mid">
+
+                                                                                    <ul class="check_con clearfix">
+                                <li>卫生间：独立卫生间</li>
+                                <li>最少入住天数：1天</li>
+                                <li>最多入住天数：365天</li>
+                                <li>是否接待境外人士：不接待</li>                                <!--<li>被单更换：每日一换</li>-->
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="box_gray clearfix detail_intro_item" hideheight="135" showheight="120">
-              <div class="info_l"> <span class="info_ico2"></span>
-
-                <p>内部情况</p>
-              </div>
-              <div class="info_r">
-                <div class=" intro_item_content" style="height: 120px; overflow: hidden;">
-                  <p>卧室底细：
-                    <br>所有房间均配备一客一洗床单被套，衣帽架，木质衣架，吹风筒，闲居漱口杯，多芬洗护，蓝月亮洗衣液，消毒封口毛巾，专属定制旅行牙膏牙刷套装，编织地垫，凉拖鞋以及独立洗手间；
-                    <br>活动厅：
-                    <br>四楼大厅为亲子家庭配备，是小盆友的玩乐天地； 三楼大厅可下象棋，五子棋，喝茶聊天，扑克麻将等；二楼大厅是健身达人专属，配跑步机，瑜伽垫，呼啦圈，哑铃或适合室外的羽毛球拍等；一楼大厅有两个，分别为娱乐厅和休闲厅，娱乐厅有麻将桌，飞镖等集体娱乐设施，休闲厅有各类书籍，酒柜，自助咖啡机，55寸网络电视，吐槽粘贴区，休闲吊椅和一张3M长的多功能桌等等。
-                    <br>庭前院落
-                    <br>庭院为独立院落，有专门的围炉烧烤，也有绿藤架下的窃窃私语，更有傍晚时分你那娓娓动听的畅享室外KTV；除此之外，也有蝴蝶精心种植的各类花草，当然如果你喜欢，可以自行种植，达到你喜欢的效果后可带走噢！！！</p>
-                </div>
-              </div>
-            </div>
-            <div class="box_white clearfix detail_intro_item" hideheight="135" showheight="120">
-              <div class="info_l"> <span class="info_ico3"></span>
-
-                <p>交通情况</p>
-              </div>
-              <div class="info_r">
-                <div class="info_text_mid">
-                  <p>由大鹏或南澳皆有专线小巴，院落走到沙滩仅10分钟左右路程，天文台，看日出都是*佳位置</p>
-                </div>
-                <div class="open" style="display:none;">查看全部<span></span>
-                </div>
-                <div class="stop" style="display:none;">收起<span></span>
-                </div>
-              </div>
-            </div>
-            <div class=" box_gray  clearfix detail_intro_item" hideheight="135" showheight="120">
-              <div class="info_l"> <span class="info_ico4"></span>
-
-                <p>周边情况</p>
-              </div>
-              <div class="info_r">
-                <div class="info_text_mid">
-                  <p>周边景点：深圳最长的沙滩海景，情人岛，天文台，三门岛等等。</p>
-                </div>
-                <div class="open" style="display:none;">查看全部<span></span>
-                </div>
-                <div class="stop" style="display:none;">收起<span></span>
-                </div>
-              </div>
-            </div>
-            <div class="box_white clearfix detail_intro_item" hideheight="134" showheight="130">
-              <div class="info_l"> <span class="info_ico5"></span>
-
-                <p>配套设施</p>
-              </div>
-              <div class="info_r">
-                <div class="intro_item_content" style=" overflow: hidden;">
-                  <ul class="pt_list clearfix">
-                    <li class="s_ico_shower">热水淋浴</li>
-                    <li class="s_ico_wirelessnetwork">无线网络</li>
-                    <li class="s_ico_aircondition">空调</li>
-                    <li class="s_ico_washer">洗衣机</li>
-                    <li class="s_ico_icebox">冰箱</li>
-                    <li class="s_ico_parkingspace">停车位</li>
-                    <li class="s_ico_slippers">拖鞋</li>
-                    <li class="s_ico_toiletpaper">手纸</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="box_gray clearfix detail_intro_item" hideheight="135" showheight="120">
-              <div class="info_l"> <span class="info_ico6"></span>
-
-                <p>入住须知</p>
-              </div>
-              <div class="info_r">
-                <div class="info_text_mid">
-                  <ul class="check_con clearfix">
-                    <li>卫生间：独立卫生间</li>
-                    <li>最少入住天数：1天</li>
-                    <li>最多入住天数：无限制</li>
-                    <li>是否接待境外人士：接待</li>
-                    <!--<li>被单更换：每客一换</li>-->
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
 
         </div><!--/ .content-wrapper-->
 

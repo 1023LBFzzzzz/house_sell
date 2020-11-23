@@ -123,7 +123,7 @@ a, a > * {
 			transition: background-color .25s ease 0s, border .25s ease 0s, color .25s ease 0s, opacity .25s ease-in-out 0s;
 }
 
-body.light a, body.light a > * {color: #50554e;}
+/* body.light a, body.light a > * {color: #50554e;} */
 
 body.dark a, body.dark a > * {color: #7e8a83;}
 

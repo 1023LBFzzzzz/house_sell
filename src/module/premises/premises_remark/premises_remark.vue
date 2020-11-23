@@ -223,543 +223,280 @@
               </form>
             </div>
 
-            <div class="m-mes" style="margin-top: 50px;">
-              <dl class="kf"><dt><img src="http://public.loupan.com/public/assets_v3/images/48-48.png" width="48" height="48"><span>小编点评</span></dt>
-                <dd>园区精心打造纯私密办公空间，每栋独享私有入户花园。商务公馆采用独栋形态，高2-4层，单体面积约500-2000㎡。掩映于绿树之间，私享窗外水岸美景，绿地公园尽收眼底。优雅、清静，乐享完全属于自身的办公天地。</dd>
-              </dl>
-            </div>
 
           </div><!--/ #content-->
 
 
-          <div id="load_Ajax_GetDetalCommentAndOtherComment" class="commentlist bg_box mt_10">
-            <ul class="dp_tab">
-              <li class="cur dp_ico1" id="thisroom">本房源点评(23)</li>
-            </ul>
-            <div id="comment_box" class="comment_con" style="display: block;">
-              <div class="comment_box clearfix">
-                <div class="score_l"> <span class="x_textscore">4.9<em class="f_24">/5分</em></span>
+         <div id="load_Ajax_GetDetalCommentAndOtherComment" class="commentlist bg_box mt_10">
+                                <ul class="dp_tab">
+        <li class="dp_ico1 cur" id="thisroom">本房源点评(7)</li>
+        </ul>
+<div id="comment_box" class="comment_con" style="display:block;">
+            <div class="comment_box clearfix">
+        <div class="score_l">
+            <span class="x_textscore">4.9<em class="f_24">/5分</em></span>
+            <ul class="stars_box">
+                                    <li class="stars_info nomarginL"><i class="yellow_star"></i></li>
+                                    <li class="stars_info "><i class="yellow_star"></i></li>
+                                    <li class="stars_info "><i class="yellow_star"></i></li>
+                                    <li class="stars_info "><i class="yellow_star"></i></li>
+                                                <li class="stars_info"><i class="yellow_star" style="width:90%;"></i></li>
+                                            </ul>
+        </div>
+        <ul class="score_r clearfix">
+            <li><span>整洁卫生</span>5分</li>
+            <li><span>描述相符</span>5分</li>
+            <li><span>交通位置</span>4.7分</li>
+            <li><span>安全程度</span>5分</li>
+            <li><span>性价比</span>5分</li>
+        </ul>
+    </div>
+            <div class="comment_list" id="selfcomment">
 
-                  <ul class="stars_box">
-                    <li class="stars_info nomarginL"><i class="yellow_star"></i>
-                    </li>
-                    <li class="stars_info "><i class="yellow_star"></i>
-                    </li>
-                    <li class="stars_info "><i class="yellow_star"></i>
-                    </li>
-                    <li class="stars_info "><i class="yellow_star"></i>
-                    </li>
-                    <li class="stars_info"><i class="yellow_star" style="width:90%;"></i>
-                    </li>
-                  </ul>
-                </div>
-                <ul class="score_r clearfix">
-                  <li><span>整洁卫生</span>4.9分</li>
-                  <li><span>描述相符</span>5分</li>
-                  <li><span>交通位置</span>5分</li>
-                  <li><span>安全程度</span>5分</li>
-                  <li><span>性价比</span>4.7分</li>
-                </ul>
-              </div>
-              <div class="comment_list" id="selfcomment">
-                <div class="dp_box clearfix mt_10">
-                  <img lazy_src="finish" title="o9雨过天晴" alt="" class="dp_pic72" src="https://image.xiaozhustatic2.com/22/20,0,78,33450,132,132,3753fad1.jpg">
-                  <div class="dp_con">
-                    <h6 data-id="114144681700">
-                      <span class="col_pink">o9雨过天晴</span>入住时间：
-                      <if>2019年07月</if>
+<div class="dp_box clearfix mt_10">
+    <img lazy_src="finish" title="夏末茶霏" alt="" class="dp_pic72" src="https://image.xiaozhustatic2.com/22/3,21,0,63,8603,132,132,8cec769f.jpg">
+    <div class="dp_con">
+        <h6 data-id="117634485600">
+            <span class="col_pink">夏末茶霏</span>入住时间：
+                        <if>2019年08月</if>
                     </h6>
-                    老板人非常好👍，很人性化，以后还会再来</div>
-                </div>
-                <div class="dp_box clearfix mt_10">
-                  <img lazy_src="finish" title="风火" alt="" class="dp_pic72" src="https://image.xiaozhustatic2.com/22/51,0,12,107683,480,480,6bf167e0.jpg">
-                  <div class="dp_con">
-                    <h6 data-id="103898162700">
-                      <span class="col_pink">风火</span>入住时间：
-                      <if>2019年05月</if>
-                    </h6>
-                    五一普遍价高，总体来说满意</div>
-                </div>
-                <div class="dp_box clearfix mt_10">
-                  <img lazy_src="finish" title="南门路口" alt="" class="dp_pic72" src="https://image.xiaozhustatic2.com/22/18,0,46,6807,208,207,1444da93.jpg">
-                  <div class="dp_con">
-                    <h6 data-id="43044299000">
-                      <span class="col_pink">南门路口</span>入住时间：
-                      <if>2018年10月</if>
-                    </h6>
-                    1,入住前就抱着错峰出行的目的，想在国庆最后一天去海边，人少，游玩不会太拥挤。 2,结果去了以后才被当地告知由于前段时候台风问题，海滩还没开放。最后还得开车跑到7公里以外的另一处海滩。 3,从住宿上来讲，体验还行，很幽静。 4,从游玩方面来讲，出行很麻烦。 产品建议： 1，一般住民宿就是为了去当地游玩，希望在产品界面也收集一些游玩信息给用户查阅。譬如：当地旅游局网址，旅游局公告，这些信息做些数据抓取就能办到，也能提高用户体验。 2，外出旅游主要三要素（吃，主，行），现在只是粗暴的解决了住的问题，建议在界面中也植入吃的推荐和行的路径，不仅产品能提高竞争力，也能带来增值服务收入，何乐而不为。
-                    <div
-                      class="reply_box">
-                      <div class="arrow_top"></div>
-                      <h5>房东回复:</h5>
-
-                      <p>内心是温暖潮湿的地方，适合任何东西生长 愿您及家人 在时光里享受温暖，在流年里淡笑花开 感谢您的肯定和联系，我们会努力做的更好～ 蝴蝶家客栈，住进时光里～～</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="dp_box clearfix mt_10">
-                  <img lazy_src="finish" title="尹尹j2" alt="" class="dp_pic72" src="https://image.xiaozhustatic2.com/22/16,0,7,9033,132,132,e668b967.jpg">
-                  <div class="dp_con">
-                    <h6 data-id="38059077700">
-                      <span class="col_pink">尹尹j2</span>入住时间：
-                      <if>2018年08月</if>
-                    </h6>
-                    房间宽敞明亮，非常舒适，下次一定要来这家定房哦
-                    <div class="reply_box">
-                      <div class="arrow_top"></div>
-                      <h5>房东回复:</h5>
-
-                      <p>时光沉淀，如一抹繁华的艳阳，从夏日傍晚清凉的池塘中滑落，悄然走进了秋日的诗行！ 蝴蝶家 住进时光里</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="dp_box clearfix mt_10">
-                  <img lazy_src="finish" title="亚亚说要有光" alt="" class="dp_pic72" src="https://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83eopsSZ2rTiaicErQu8JicBahGVLceX17ehFKEoic3g2icx8W3icpP5Lsxt8eicPCyPHuDdM47XK3hpiadPETA/132">
-                  <div class="dp_con">
-                    <h6 data-id="37397845600">
-                      <span class="col_pink">亚亚说要有光</span>入住时间：
-                      <if>2018年08月</if>
-                    </h6>
-                    很难得的一次体验，超级不错，很满意。下次还会选择这一家。
-                    <div class="reply_box">
-                      <div class="arrow_top"></div>
-                      <h5>房东回复:</h5>
-
-                      <p>爱的时候不辜负人 玩的时候不辜负风景 睡觉时不辜负床 一个人时不辜负自己 蝴蝶家 住进时光里</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="dp_box clearfix mt_10">
-                  <img lazy_src="finish" title="临武舒航文体陈亚" alt="" class="dp_pic72" src="https://image.xiaozhustatic2.com/22/15,0,87,28485,132,132,f420d1de.jpg">
-                  <div class="dp_con">
-                    <h6 data-id="36432689500">
-                      <span class="col_pink">临武舒航文体陈亚</span>入住时间：
-                      <if>2018年07月</if>
-                    </h6>
-                    满分民宿，小猪推荐得太好了，老板娘热情，一楼很好玩！下次还来
-                    <div class="reply_box">
-                      <div class="arrow_top"></div>
-                      <h5>房东回复:</h5>
-
-                      <p>世界上有一千种等待， 最好的那一种叫做来日可期， 点点星灯与你来日可期！ 蝴蝶家 住进时光里</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="dp_box clearfix mt_10">
-                  <img lazy_src="finish" title="饶安防监控系统18" alt="" class="dp_pic72" src="https://image.xiaozhustatic2.com/22/15,0,84,31384,132,132,3cc9e05d.jpg">
-                  <div class="dp_con">
-                    <h6 data-id="36184536800">
-                      <span class="col_pink">饶安防监控系统18</span>入住时间：
-                      <if>2018年07月</if>
-                    </h6>
-                    完全没有想象到 比预期的要好很多
-                    <div class="reply_box">
-                      <div class="arrow_top"></div>
-                      <h5>房东回复:</h5>
-
-                      <p>生活最沉重的负担不是工作，而是无聊，若不抽出时间，来创造自己想要的生活，你最终将不得不花费大量的时间，来应付自己不想要的生活！ 蝴蝶家 住进时光里</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="dp_box clearfix mt_10">
-                  <img lazy_src="finish" title="情绪病h" alt="" class="dp_pic72" src="https://image.xiaozhustatic2.com/22/8,0,23,8567,260,260,18ce09cd.jpg">
-                  <div class="dp_con">
-                    <h6 data-id="35393017500">
-                      <span class="col_pink">情绪病h</span>入住时间：
-                      <if>2018年07月</if>
-                    </h6>
-                    假期愉快结束，老板娘人挺好的，环境也还不错
-                    <div class="reply_box">
-                      <div class="arrow_top"></div>
-                      <h5>房东回复:</h5>
-
-                      <p>我想成為一個溫柔的人，因為會被溫柔的人那樣對待，深深瞭解那種被溫柔對待的感覺！ 蝴蝶家 住进时光里</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="dp_box clearfix mt_10">
-                  <img lazy_src="finish" title="freedom_fu" alt="" class="dp_pic72" src="https://image.xiaozhustatic2.com/22/8,0,19,8755,260,260,976ffdd9.jpg">
-                  <div class="dp_con">
-                    <h6 data-id="34561312000">
-                      <span class="col_pink">freedom_fu</span>入住时间：
-                      <if>2018年07月</if>
-                    </h6>
-                    房东非常好，有求必应。
-                    <div class="reply_box">
-                      <div class="arrow_top"></div>
-                      <h5>房东回复:</h5>
-
-                      <p>每个人都行走在逐梦的路上，为了自己的梦想而奋发向上，犹如一道曙光，照亮了生活！ 蝴蝶家 住进时光里</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="dp_box clearfix mt_10">
-                  <img lazy_src="finish" title="Yokosd" alt="" class="dp_pic72" src="https://image.xiaozhustatic2.com/22/14,0,95,23479,363,363,ccb92a65.jpg">
-                  <div class="dp_con">
-                    <h6 data-id="32594659600">
-                      <span class="col_pink">Yokosd</span>入住时间：
-                      <if>2018年06月</if>
-                    </h6>
-                    房东人美又好！干净舒服！！！还会去！！
-                    <div class="reply_box">
-                      <div class="arrow_top"></div>
-                      <h5>房东回复:</h5>
-
-                      <p>世界先爱了我，我不能不爱它，只记花开不记人，你在花里，如花在风中！ 蝴蝶家 住进时光里</p>
-                    </div>
-                  </div>
-                </div>
-                <input type="hidden" id="commentIdDialog" value="">
-                <div class="pagination_v2 pb0_vou"> <span class="active_link">1</span><a target="_self" href="#ongo" onclick="javascript: jumpToPage(2);return false;">2</a><a target="_self" href="#ongo" onclick="javascript: jumpToPage(3);return false;">3</a><a class="font_st" target="_self" href="#ongo"
-                                                                                                                                                                                                                                                                     onclick="javascript: jumpToPage(2);return false;">></a>
-                </div>
-              </div>
+                店主小妹妹态度非常好，也很热情呦，因为订酒店比较仓促，酒店都没有啦，于是乎找到了小猪民宿，当我快要放弃的时候，幸运的找到了墨宿，Loft是我想要的，因为带着孩子和父母一起，想住个温馨舒服的地方，晚上都快一点了，我试探着打开聊天模式，没想到店主美女直接回复我啦，于是我们约好第二天入住。到后，店主美女非常热情的给我介绍家里每一个细节，包括还有免费的茶点，让人瞬间感觉的非常贴心！房间和图片一样，没有任何美化，主要店主美女还把周边的美食推荐，景点路线告诉我们啦，非常方便，墨宿，是不错的选择，家里人都说挺好的，下次有机会来成都的话，我们有缘还会来住的！最后还是要感谢店家美女，人非常好说话，因为怕孩子和父母累，所以晚点退房，店家爽快的答应了，非常感谢！下次有机会还会来墨宿！谢谢！很美好的成都之旅……最重要的是时间这么短还认识了热情友好的店主妹女！
+                        <div class="reply_box">
+            <div class="arrow_top"></div>
+            <h5>房东回复:</h5>
+            <p>
+                        客人素质很高呢，离开时房间保持的特别干净，全程沟通夜很愉快~谢谢亲亲对我们的认可，期待您下次再来❤
+            </p>
+        </div>
             </div>
-            <div id="othercomment_box" class="comment_con" style="display: none;">
-              <div class="comment_box clearfix">
-                <div class="score_l"> <span class="x_textscore">4.9<em class="f_24">/5分</em></span>
-
-                  <ul class="stars_box">
-                    <li class="stars_info nomarginL"><i class="yellow_star"></i>
-                    </li>
-                    <li class="stars_info "><i class="yellow_star"></i>
-                    </li>
-                    <li class="stars_info "><i class="yellow_star"></i>
-                    </li>
-                    <li class="stars_info "><i class="yellow_star"></i>
-                    </li>
-                    <li class="stars_info"><i class="yellow_star" style="width:90%;"></i>
-                    </li>
-                  </ul>
-                </div>
-                <ul class="score_r clearfix">
-                  <li><span>整洁卫生</span>5分</li>
-                  <li><span>描述相符</span>4.9分</li>
-                  <li><span>交通位置</span>4.8分</li>
-                  <li><span>安全程度</span>5分</li>
-                  <li><span>性价比</span>4.9分</li>
-                </ul>
-              </div>
-              <div class="comment_list" id="othercomment">
-                <div class="dp_box clearfix mt_10">
-                  <img lazy_src="finish" title="慕剑楠" alt="" class="dp_pic72" src="https://image.xiaozhustatic2.com/22/51,0,72,41898,260,260,e3b3e68b.jpg">
-                  <div class="dp_con">
-                    <h5 class="dp_tit"><a href="http://sz.xiaozhu.com/fangzi/8847474163.html" target="_blank">西涌（西冲） 舒适宜居宽敞阳光大床房近沙滩 ></a></h5>
-
-                    <h6 data-id="125263201200"><span class="col_pink">慕剑楠</span>入住时间：
-                      2019年10月
+</div>
+<div class="dp_box clearfix mt_10">
+    <img lazy_src="finish" title="绿袖子x" alt="" class="dp_pic72" src="https://image.xiaozhustatic2.com/22/3,8,0,53,8783,260,260,fdc30499.jpg">
+    <div class="dp_con">
+        <h6 data-id="109307394300">
+            <span class="col_pink">绿袖子x</span>入住时间：
+                        <if>2019年06月</if>
                     </h6>
-
-                    <div class="lodger-comment">房子很干净，姐姐人也挺好。</div>
-                  </div>
-                </div>
-                <div class="dp_box clearfix mt_10">
-                  <img lazy_src="finish" title="胡佳3026" alt="" class="dp_pic72" src="https://image.xiaozhustatic2.com/22/8,0,19,8755,260,260,976ffdd9.jpg">
-                  <div class="dp_con">
-                    <h5 class="dp_tit"><a href="http://sz.xiaozhu.com/fangzi/8847474163.html" target="_blank">西涌（西冲） 舒适宜居宽敞阳光大床房近沙滩 ></a></h5>
-
-                    <h6 data-id="120041308300"><span class="col_pink">胡佳3026</span>入住时间：
-                      2019年08月
-                    </h6>
-
-                    <div class="lodger-comment">老板人很好，离海滩近</div>
-                    <div class="reply_box">
-                      <div class="arrow_top"></div>
-                      <h5>房东回复:</h5>
-                      谢谢，感谢入住哈
-                      <p></p>
-                    </div>
-                  </div>
-                </div>
-                <div class="dp_box clearfix mt_10">
-                  <img lazy_src="finish" title="代代dg" alt="" class="dp_pic72" src="https://image.xiaozhustatic2.com/22/19,0,97,46400,132,132,d990e6a7.jpg">
-                  <div class="dp_con">
-                    <h5 class="dp_tit"><a href="http://sz.xiaozhu.com/fangzi/9009760463.html" target="_blank">西冲西涌沙滩整独栋四室一厅麻将房可住8人 ></a></h5>
-
-                    <h6 data-id="108929025700"><span class="col_pink">代代dg</span>入住时间：
-                      2019年06月
-                    </h6>
-
-                    <div class="lodger-comment">环境还不错 老板人也很热情 给人感觉很亲切 入住体验特别好</div>
-                    <input type="hidden" id="commentId_108929025700" value="">
-                    <input type="hidden" id="imgId_108929025700" value="">
-                    <ul class="pic_show clearfix">
-                      <li>
-                        <a href="javascript:void(0);" class="thumbimg detail_comment_thumbimg" imgid="1" commentid="108929025700">
-                          <img lazy_src="finish" alt="" src="https://image.xiaozhustatic2.com/00,87,65/19,0,66,48945,921,691,f728708b.jpg">
-                        </a>
-                      </li>
-                    </ul>
-                    <ul class="thumb-photo-nav" style="display:none;">
-                      <li>
-                        <div class="cur" style=""></div>
-                        <a href="javascript:void(0);">
-                          <img lazy_src="finish" data-bigimg="https://image.xiaozhustatic1.com/00,666,500/19,0,66,48945,921,691,f728708b.jpg" data-imgrate="1.33" src="https://image.xiaozhustatic2.com/00,87,65/19,0,66,48945,921,691,f728708b.jpg">
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="dp_box clearfix mt_10">
-                  <img lazy_src="finish" title="皮队长" alt="" class="dp_pic72" src="https://image.xiaozhustatic2.com/22/8,0,53,8783,260,260,fdc30499.jpg">
-                  <div class="dp_con">
-                    <h5 class="dp_tit"><a href="http://sz.xiaozhu.com/fangzi/8847474163.html" target="_blank">西涌（西冲） 舒适宜居宽敞阳光大床房近沙滩 ></a></h5>
-
-                    <h6 data-id="105512827500"><span class="col_pink">皮队长</span>入住时间：
-                      2019年05月
-                    </h6>
-
-                    <div class="lodger-comment">很好，店主人很好，住得也放心，比较舒服，哪怕晚了些退房也没关系，谢谢店主</div>
-                    <div class="reply_box">
-                      <div class="arrow_top"></div>
-                      <h5>房东回复:</h5>
-                      可爱一家人，感谢您选择蝴蝶家客栈，祝您未来的每一天幸福快乐哦～
-                      <p></p>
-                    </div>
-                  </div>
-                </div>
-                <div class="dp_box clearfix mt_10">
-                  <img lazy_src="finish" title="koIris" alt="" class="dp_pic72" src="https://image.xiaozhustatic2.com/22/51,0,26,98138,100,100,ac163478.jpg">
-                  <div class="dp_con">
-                    <h5 class="dp_tit"><a href="http://sz.xiaozhu.com/fangzi/8847474163.html" target="_blank">西涌（西冲） 舒适宜居宽敞阳光大床房近沙滩 ></a></h5>
-
-                    <h6 data-id="102688508300"><span class="col_pink">koIris</span>入住时间：
-                      2019年04月
-                    </h6>
-
-                    <div class="lodger-comment">还是可以的，店家很热情，人也不错</div>
-                  </div>
-                </div>
-                <div class="dp_box clearfix mt_10">
-                  <img lazy_src="finish" title="卢小文文" alt="" class="dp_pic72" src="https://image.xiaozhustatic2.com/22/8,0,23,8567,260,260,18ce09cd.jpg">
-                  <div class="dp_con">
-                    <h5 class="dp_tit"><a href="http://sz.xiaozhu.com/fangzi/8847474163.html" target="_blank">西涌（西冲） 舒适宜居宽敞阳光大床房近沙滩 ></a></h5>
-
-                    <h6 data-id="44392753500"><span class="col_pink">卢小文文</span>入住时间：
-                      2018年10月
-                    </h6>
-
-                    <div class="lodger-comment">蝴蝶家很不错，去的时候只有我和我朋友两个人，房东超级满足我们两个，基本都是免费玩，但是西涌在维修所以附近很少人，吃饭什么的都很少，可是房东都帮我们找人煮给我们吃，还找人送我们去看日出，炒鸡好。</div>
-                    <div class="reply_box">
-                      <div class="arrow_top"></div>
-                      <h5>房东回复:</h5>
-                      两个可爱美好的小朋友 俏丽丽的站在那 就是最美的风景 愿风起雨落，云卷云舒都有彼此陪伴 愿两个宝宝岁月静好，幸福快乐
-                      <p></p>
-                    </div>
-                  </div>
-                </div>
-                <div class="dp_box clearfix mt_10">
-                  <img lazy_src="finish" title="lyy小可爱" alt="" class="dp_pic72" src="https://image.xiaozhustatic2.com/22/8,0,23,8567,260,260,18ce09cd.jpg">
-                  <div class="dp_con">
-                    <h5 class="dp_tit"><a href="http://sz.xiaozhu.com/fangzi/9009760463.html" target="_blank">西冲西涌沙滩整独栋四室一厅麻将房可住8人 ></a></h5>
-
-                    <h6 data-id="40939445500"><span class="col_pink">lyy小可爱</span>入住时间：
-                      2018年09月
-                    </h6>
-
-                    <div class="lodger-comment">感觉还不错，店家挺好的，院子里很有文艺气息，虽然因为台风没能去沙滩，不过也没多大影响我们一群人的心情，第一天下午去到打打麻将，傍晚烧烧烤，别是一番乐趣，凌晨的时候开始大风大雨，早上早早的就出发回家了，幸好赶在台风越来越猛前回到了家。这趟旅行还是一次很有意义的，回去的路上大雨大风树枝树叶满天飞。一种别样的体验。</div>
-                  </div>
-                </div>
-                <div class="dp_box clearfix mt_10">
-                  <img lazy_src="finish" title="lisasasasasasa" alt="" class="dp_pic72" src="https://image.xiaozhustatic2.com/22/8,0,11,8759,260,260,71798c1d.jpg">
-                  <div class="dp_con">
-                    <h5 class="dp_tit"><a href="http://sz.xiaozhu.com/fangzi/9009473763.html" target="_blank">西冲西涌沙滩蝴蝶家整层三室一厅套房可入住6人 ></a></h5>
-
-                    <h6 data-id="38905095100"><span class="col_pink">lisasasasasasa</span>入住时间：
-                      2018年08月
-                    </h6>
-
-                    <div class="lodger-comment">和家人一起去的西冲，斜坡下去就有露天停车场🅿很方便，是家很温馨的名宿。 每个房间都有一个厕所可以洗澡，我觉得水不够大，房间的灯都是黄色灯，比较小清新但是不实用，化妆的妹子来说不太方便，只能到大厅的全身镜化妆，房间里面简洁大方，但是没有凳子配桌子，没办法化妆梳头卸妆什么的，一家人来住还是蛮方便的。三个房间各有一个独立钥匙。 每个房间都有配一个衣帽架，三个一起很方便晾衣服 阳台够大 还要补充的一点是晚上吃完饭回来想休息 附近居然有人在k歌 怕吵的可能就没办法在附近住 隔音不太好 阿姨蛮有礼貌 每次都会跟我们打招呼
-                      门口有水可以洗脚 也有拖鞋可以穿出去玩</div>
-                    <input type="hidden" id="commentId_38905095100" value="">
-                    <input type="hidden" id="imgId_38905095100" value="">
-                    <ul class="pic_show clearfix">
-                      <li>
-                        <a href="javascript:void(0);" class="thumbimg detail_comment_thumbimg" imgid="1" commentid="38905095100">
-                          <img lazy_src="finish" alt="" src="https://image.xiaozhustatic1.com/00,87,65/16,0,21,32741,2666,2000,4a03cd87.jpg">
-                        </a>
-                      </li>
-                      <li>
-                        <a href="javascript:void(0);" class="thumbimg detail_comment_thumbimg" imgid="2" commentid="38905095100">
-                          <img lazy_src="finish" alt="" src="https://image.xiaozhustatic3.com/00,87,65/16,0,70,32539,2666,2000,6bdbd34d.jpg">
-                        </a>
-                      </li>
-                      <li>
-                        <a href="javascript:void(0);" class="thumbimg detail_comment_thumbimg" imgid="3" commentid="38905095100">
-                          <img lazy_src="finish" alt="" src="https://image.xiaozhustatic2.com/00,87,65/16,0,14,32585,2666,2000,e9f53855.jpg">
-                        </a>
-                      </li>
-                      <li>
-                        <a href="javascript:void(0);" class="thumbimg detail_comment_thumbimg" imgid="4" commentid="38905095100">
-                          <img lazy_src="finish" alt="" src="https://image.xiaozhustatic1.com/00,87,65/16,0,52,32654,2666,2000,29af81b8.jpg">
-                        </a>
-                      </li>
-                      <li>
-                        <a href="javascript:void(0);" class="thumbimg detail_comment_thumbimg" imgid="5" commentid="38905095100">
-                          <img lazy_src="finish" alt="" src="https://image.xiaozhustatic3.com/00,65,65/16,0,51,32768,2000,2000,b7378501.jpg">
-                        </a>
-                      </li>
-                      <li>
-                        <a href="javascript:void(0);" class="thumbimg detail_comment_thumbimg" imgid="6" commentid="38905095100">
-                          <img lazy_src="finish" alt="" src="https://image.xiaozhustatic2.com/00,65,116/16,0,29,32350,1080,1920,9b946d9c.jpg">
-                        </a>
-                      </li>
-                    </ul>
-                    <ul class="thumb-photo-nav" style="display:none;">
-                      <li>
-                        <div class="cur" style=""></div>
-                        <a href="javascript:void(0);">
-                          <img lazy_src="finish" data-bigimg="https://image.xiaozhustatic3.com/00,667,500/16,0,21,32741,2666,2000,4a03cd87.jpg" data-imgrate="1.33" src="https://image.xiaozhustatic1.com/00,87,65/16,0,21,32741,2666,2000,4a03cd87.jpg">
-                        </a>
-                      </li>
-                      <li>
-                        <div class="cur" style=""></div>
-                        <a href="javascript:void(0);">
-                          <img lazy_src="finish" data-bigimg="https://image.xiaozhustatic2.com/00,667,500/16,0,70,32539,2666,2000,6bdbd34d.jpg" data-imgrate="1.33" src="https://image.xiaozhustatic3.com/00,87,65/16,0,70,32539,2666,2000,6bdbd34d.jpg">
-                        </a>
-                      </li>
-                      <li>
-                        <div class="cur" style=""></div>
-                        <a href="javascript:void(0);">
-                          <img lazy_src="finish" data-bigimg="https://image.xiaozhustatic1.com/00,667,500/16,0,14,32585,2666,2000,e9f53855.jpg" data-imgrate="1.33" src="https://image.xiaozhustatic2.com/00,87,65/16,0,14,32585,2666,2000,e9f53855.jpg">
-                        </a>
-                      </li>
-                      <li>
-                        <div class="cur" style=""></div>
-                        <a href="javascript:void(0);">
-                          <img lazy_src="finish" data-bigimg="https://image.xiaozhustatic3.com/00,667,500/16,0,52,32654,2666,2000,29af81b8.jpg" data-imgrate="1.33" src="https://image.xiaozhustatic1.com/00,87,65/16,0,52,32654,2666,2000,29af81b8.jpg">
-                        </a>
-                      </li>
-                      <li>
-                        <div class="cur" style=""></div>
-                        <a href="javascript:void(0);">
-                          <img lazy_src="finish" data-bigimg="https://image.xiaozhustatic2.com/00,500,500/16,0,51,32768,2000,2000,b7378501.jpg" data-imgrate="1.00" src="https://image.xiaozhustatic3.com/00,65,65/16,0,51,32768,2000,2000,b7378501.jpg">
-                        </a>
-                      </li>
-                      <li>
-                        <div class="cur" style=""></div>
-                        <a href="javascript:void(0);">
-                          <img lazy_src="finish" data-bigimg="https://image.xiaozhustatic1.com/00,281,500/16,0,29,32350,1080,1920,9b946d9c.jpg" data-imgrate="0.56" src="https://image.xiaozhustatic2.com/00,65,116/16,0,29,32350,1080,1920,9b946d9c.jpg">
-                        </a>
-                      </li>
-                    </ul>
-                    <div class="reply_box">
-                      <div class="arrow_top"></div>
-                      <h5>房东回复:</h5>
-                      房子可以不大 但是一定要有一个院子 可以装进我的诗意生活 能静享心中的那份美好 蝴蝶家 住进时光里
-                      <p></p>
-                    </div>
-                  </div>
-                </div>
-                <div class="dp_box clearfix mt_10">
-                  <img lazy_src="finish" title="Wiezuh" alt="" class="dp_pic72" src="https://image.xiaozhustatic2.com/22/8,0,23,8567,260,260,18ce09cd.jpg">
-                  <div class="dp_con">
-                    <h5 class="dp_tit"><a href="http://sz.xiaozhu.com/fangzi/9009760463.html" target="_blank">西冲西涌沙滩整独栋四室一厅麻将房可住8人 ></a></h5>
-
-                    <h6 data-id="38824737800"><span class="col_pink">Wiezuh</span>入住时间：
-                      2018年08月
-                    </h6>
-
-                    <div class="lodger-comment">好怕乒乒乓乓</div>
-                    <div class="reply_box">
-                      <div class="arrow_top"></div>
-                      <h5>房东回复:</h5>
-                      用你的心 去感知别人的冷暖 给别人多一点尊重 多一些余地 相信你的友善 定能换回一份人心本性的馨香温婉 蝴蝶家 住进时光里
-                      <p></p>
-                    </div>
-                  </div>
-                </div>
-                <div class="dp_box clearfix mt_10">
-                  <img lazy_src="finish" title="曾亮f5" alt="" class="dp_pic72" src="https://image.xiaozhustatic2.com/22/8,0,11,8759,260,260,71798c1d.jpg">
-                  <div class="dp_con">
-                    <h5 class="dp_tit"><a href="http://sz.xiaozhu.com/fangzi/9009473763.html" target="_blank">西冲西涌沙滩蝴蝶家整层三室一厅套房可入住6人 ></a></h5>
-
-                    <h6 data-id="38813548400"><span class="col_pink">曾亮f5</span>入住时间：
-                      2018年08月
-                    </h6>
-
-                    <div class="lodger-comment">很棒的地方。住的很舒服。 要是热水更大些就更好了！</div>
-                    <input type="hidden" id="commentId_38813548400" value="">
-                    <input type="hidden" id="imgId_38813548400" value="">
-                    <ul class="pic_show clearfix">
-                      <li>
-                        <a href="javascript:void(0);" class="thumbimg detail_comment_thumbimg" imgid="1" commentid="38813548400">
-                          <img lazy_src="finish" alt="" src="https://image.xiaozhustatic1.com/00,65,87/16,0,37,31727,744,992,ebe0dab6.jpg">
-                        </a>
-                      </li>
-                      <li>
-                        <a href="javascript:void(0);" class="thumbimg detail_comment_thumbimg" imgid="2" commentid="38813548400">
-                          <img lazy_src="finish" alt="" src="https://image.xiaozhustatic3.com/00,65,87/16,0,28,32101,744,992,ea0d31cd.jpg">
-                        </a>
-                      </li>
-                      <li>
-                        <a href="javascript:void(0);" class="thumbimg detail_comment_thumbimg" imgid="3" commentid="38813548400">
-                          <img lazy_src="finish" alt="" src="https://image.xiaozhustatic2.com/00,65,87/16,0,11,31994,744,992,979b9fee.jpg">
-                        </a>
-                      </li>
-                    </ul>
-                    <ul class="thumb-photo-nav" style="display:none;">
-                      <li>
-                        <div class="cur" style=""></div>
-                        <a href="javascript:void(0);">
-                          <img lazy_src="finish" data-bigimg="https://image.xiaozhustatic3.com/00,375,500/16,0,37,31727,744,992,ebe0dab6.jpg" data-imgrate="0.75" src="https://image.xiaozhustatic1.com/00,65,87/16,0,37,31727,744,992,ebe0dab6.jpg">
-                        </a>
-                      </li>
-                      <li>
-                        <div class="cur" style=""></div>
-                        <a href="javascript:void(0);">
-                          <img lazy_src="finish" data-bigimg="https://image.xiaozhustatic2.com/00,375,500/16,0,28,32101,744,992,ea0d31cd.jpg" data-imgrate="0.75" src="https://image.xiaozhustatic3.com/00,65,87/16,0,28,32101,744,992,ea0d31cd.jpg">
-                        </a>
-                      </li>
-                      <li>
-                        <div class="cur" style=""></div>
-                        <a href="javascript:void(0);">
-                          <img lazy_src="finish" data-bigimg="https://image.xiaozhustatic1.com/00,375,500/16,0,11,31994,744,992,979b9fee.jpg" data-imgrate="0.75" src="https://image.xiaozhustatic2.com/00,65,87/16,0,11,31994,744,992,979b9fee.jpg">
-                        </a>
-                      </li>
-                    </ul>
-                    <div class="reply_box">
-                      <div class="arrow_top"></div>
-                      <h5>房东回复:</h5>
-                      星星很聪明 它们有理由远远地避开我们人寰 星星挂在天幕上面 像世界之灯 永远安全 蝴蝶家 住进时光里
-                      <p></p>
-                    </div>
-                  </div>
-                </div>
-                <input type="hidden" id="commentIdDialog" value="">
-                <div class="pagination_v2 pb0_vou"> <span class="active_link">1</span><a target="_self" href="#ongo" onclick="javascript: jumpToPage1(2);return false;">2</a><a target="_self" href="#ongo" onclick="javascript: jumpToPage1(3);return false;">3</a><a target="_self" href="#ongo" onclick="javascript: jumpToPage1(4);return false;">4</a>
-                  <a
-                    class="font_st" target="_self" href="#ongo" onclick="javascript: jumpToPage1(2);return false;">></a>
-                </div>
-              </div>
+                第一次在网上预约民宿，真的！一点都没有让我失望！房间实在是太美啦，很有艺术感！基本上找不出缺点，还很重要的一点是房东真的太热情了，接机服务也很到位！以后还会再来的！❤️
+                        <div class="reply_box">
+            <div class="arrow_top"></div>
+            <h5>房东回复:</h5>
+            <p>
+                        不错的客人，爱惜房子准时退房，推荐给房东大大们……
+            </p>
+        </div>
             </div>
-            <!--照片轮播-->
-            <div id="lightBoxDialog" class="user_unselectable" style="display:none;">
-              <div class="mask"></div>
-              <div class="colsed" id="close_photo_box"></div>
-              <a class="detail-photo-prev"></a>
-              <a class="detail-photo-next"></a>
-              <div class="pic_show_box">
-                <a class="rota_l"></a>
-                <a class="rota_r" onselectstart="return false;"></a>
-                <div class="big_pic user_unselectable">
-                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                    <tbody>
-                    <tr>
-                      <td id="bigImage_pic_box">
+</div>
+<div class="dp_box clearfix mt_10">
+    <img lazy_src="finish" title="Arthit_q" alt="" class="dp_pic72" src="https://image.xiaozhustatic2.com/22/3,8,0,11,8759,260,260,71798c1d.jpg">
+    <div class="dp_con">
+        <h6 data-id="98946219000">
+            <span class="col_pink">Arthit_q</span>入住时间：
+                        <if>2019年03月</if>
+                    </h6>
+                小姐姐家是我住过所有民宿里，最舒服，最像家的地方。
+位置:成华区保利康桥，具体高铁站很近，打车不到20块钱。预定房间之后，小姐姐很贴心的告诉了门口在修路，避免绕弯。交通的话，门口有公交站，但是地铁在修，出行的话需要提前一点出门做公交，或者打车很方便。
+环境:门口的安保措施很好，而且楼下有花园，吃完饭可以出来溜达溜达。安全程度也很好，不用担心。
+房间:房间真的太太太太棒了！！！小姐姐还给准备了很多细节的小东西，卫生间里还有皮筋和夹子，卷发棒都给准备好了。进门的柜子里还给摆放了零食和饮料👍房间味道都香香的，特别干净，整洁。
+会推介给去成都的朋友这个民宿，下次来成都一定还住这里
+                <input type="hidden" id="commentId_98946219000" value="">
+        <input type="hidden" id="imgId_98946219000" value="">
+        <ul class="pic_show clearfix">
+                                                <li><a href="javascript:void(0);" class="thumbimg detail_comment_thumbimg" imgid="1" commentid="98946219000"><img lazy_src="finish" alt="" src="https://image.xiaozhustatic2.com/00,65,65/51,0,81,68298,1080,1080,249a4c1c.jpg"></a></li>
+                                    <li><a href="javascript:void(0);" class="thumbimg detail_comment_thumbimg" imgid="2" commentid="98946219000"><img lazy_src="finish" alt="" src="https://image.xiaozhustatic1.com/00,65,65/51,0,85,68583,1152,1152,c4993afa.jpg"></a></li>
+                                    <li><a href="javascript:void(0);" class="thumbimg detail_comment_thumbimg" imgid="3" commentid="98946219000"><img lazy_src="finish" alt="" src="https://image.xiaozhustatic3.com/00,65,65/51,0,80,68671,1152,1152,c4392f72.jpg"></a></li>
+                                    <li><a href="javascript:void(0);" class="thumbimg detail_comment_thumbimg" imgid="4" commentid="98946219000"><img lazy_src="finish" alt="" src="https://image.xiaozhustatic2.com/00,65,65/51,0,70,68156,1152,1152,c005a2a8.jpg"></a></li>
+
+        </ul>
+        <ul class="thumb-photo-nav" style="display:none;">
+                        <li>
+                <div class="cur" style=""></div>
+                <a href="javascript:void(0);">
+                    <img lazy_src="finish" data-bigimg="https://image.xiaozhustatic1.com/00,500,500/51,0,81,68298,1080,1080,249a4c1c.jpg" data-imgrate="1.00" src="https://image.xiaozhustatic2.com/00,65,65/51,0,81,68298,1080,1080,249a4c1c.jpg">
+                </a>
+            </li>
+                        <li>
+                <div class="cur" style=""></div>
+                <a href="javascript:void(0);">
+                    <img lazy_src="finish" data-bigimg="https://image.xiaozhustatic3.com/00,500,500/51,0,85,68583,1152,1152,c4993afa.jpg" data-imgrate="1.00" src="https://image.xiaozhustatic1.com/00,65,65/51,0,85,68583,1152,1152,c4993afa.jpg">
+                </a>
+            </li>
+                        <li>
+                <div class="cur" style=""></div>
+                <a href="javascript:void(0);">
+                    <img lazy_src="finish" data-bigimg="https://image.xiaozhustatic2.com/00,500,500/51,0,80,68671,1152,1152,c4392f72.jpg" data-imgrate="1.00" src="https://image.xiaozhustatic3.com/00,65,65/51,0,80,68671,1152,1152,c4392f72.jpg">
+                </a>
+            </li>
+                        <li>
+                <div class="cur" style=""></div>
+                <a href="javascript:void(0);">
+                    <img lazy_src="finish" data-bigimg="https://image.xiaozhustatic1.com/00,500,500/51,0,70,68156,1152,1152,c005a2a8.jpg" data-imgrate="1.00" src="https://image.xiaozhustatic2.com/00,65,65/51,0,70,68156,1152,1152,c005a2a8.jpg">
+                </a>
+            </li>
+                    </ul>
+                        <div class="reply_box">
+            <div class="arrow_top"></div>
+            <h5>房东回复:</h5>
+            <p>
+                        超超超级好的住客，进屋就像没住过人一样的干净整洁，连每个垃圾桶的垃圾都帮我们倒掉换了干净的垃圾袋~欢迎您下次光临，推荐给其他房东！！！
+            </p>
+        </div>
+            </div>
+</div>
+<div class="dp_box clearfix mt_10">
+    <img lazy_src="finish" title="童雄林" alt="" class="dp_pic72" src="https://image.xiaozhustatic2.com/22/3,8,0,88,8632,260,260,2b8e819c.jpg">
+    <div class="dp_con">
+        <h6 data-id="98759395500">
+            <span class="col_pink">童雄林</span>入住时间：
+                        <if>2019年03月</if>
+                    </h6>
+                下订单后，首先是热情的90后美女房东给你“指点一切”😀，细致热情周到。其次房间设施和装修风格。都非常好，与图片一致，牛奶，饮料饼干，零食。都有提供，而且免费哟非常棒。👍！最后总结是一场非常愉快的民俗体验。下次去成都会再次入住！
+最后一点小建议，也和房东沟通过，不知道他解决没有？就是床垫如果换好一点就更完美了。😀
+                        <div class="reply_box">
+            <div class="arrow_top"></div>
+            <h5>房东回复:</h5>
+            <p>
+                        您提了意见以后立马加了软床垫啦~
+现在客人可以睡软软的床垫啦~
+谢谢您的宝贵意见~
+我们会努力做到更好~
+            </p>
+        </div>
+            </div>
+</div>
+<div class="dp_box clearfix mt_10">
+    <img lazy_src="finish" title="南城__" alt="" class="dp_pic72" src="https://image.xiaozhustatic2.com/22/5,51,0,46,53880,260,260,e1e8941c.jpg">
+    <div class="dp_con">
+        <h6 data-id="97869985200">
+            <span class="col_pink">南城__</span>入住时间：
+                        <if>2019年03月</if>
+                    </h6>
+                非常不错的一个新民宿，实物与照片几乎没有差距，祖母绿和金色的设计搭配也是非常经典，房主也特别有爱可爱，墙裂推荐，下次有机会还来！
+                <input type="hidden" id="commentId_97869985200" value="">
+        <input type="hidden" id="imgId_97869985200" value="">
+        <ul class="pic_show clearfix">
+                                                <li><a href="javascript:void(0);" class="thumbimg detail_comment_thumbimg" imgid="1" commentid="97869985200"><img lazy_src="finish" alt="" src="https://image.xiaozhustatic1.com/00,116,65/51,0,58,58792,960,540,a9f560bc.jpg"></a></li>
+                                    <li><a href="javascript:void(0);" class="thumbimg detail_comment_thumbimg" imgid="2" commentid="97869985200"><img lazy_src="finish" alt="" src="https://image.xiaozhustatic3.com/00,116,65/51,0,68,58354,960,540,16c6f2f9.jpg"></a></li>
+                                    <li><a href="javascript:void(0);" class="thumbimg detail_comment_thumbimg" imgid="3" commentid="97869985200"><img lazy_src="finish" alt="" src="https://image.xiaozhustatic2.com/00,116,65/51,0,68,58354,960,540,16c6f2f9.jpg"></a></li>
+
+        </ul>
+        <ul class="thumb-photo-nav" style="display:none;">
+                        <li>
+                <div class="cur" style=""></div>
+                <a href="javascript:void(0);">
+                    <img lazy_src="finish" data-bigimg="https://image.xiaozhustatic3.com/00,800,450/51,0,58,58792,960,540,a9f560bc.jpg" data-imgrate="1.78" src="https://image.xiaozhustatic1.com/00,116,65/51,0,58,58792,960,540,a9f560bc.jpg">
+                </a>
+            </li>
+                        <li>
+                <div class="cur" style=""></div>
+                <a href="javascript:void(0);">
+                    <img lazy_src="finish" data-bigimg="https://image.xiaozhustatic2.com/00,800,450/51,0,68,58354,960,540,16c6f2f9.jpg" data-imgrate="1.78" src="https://image.xiaozhustatic3.com/00,116,65/51,0,68,58354,960,540,16c6f2f9.jpg">
+                </a>
+            </li>
+                        <li>
+                <div class="cur" style=""></div>
+                <a href="javascript:void(0);">
+                    <img lazy_src="finish" data-bigimg="https://image.xiaozhustatic1.com/00,800,450/51,0,68,58354,960,540,16c6f2f9.jpg" data-imgrate="1.78" src="https://image.xiaozhustatic2.com/00,116,65/51,0,68,58354,960,540,16c6f2f9.jpg">
+                </a>
+            </li>
+                    </ul>
+                        <div class="reply_box">
+            <div class="arrow_top"></div>
+            <h5>房东回复:</h5>
+            <p>
+                        不错的房客，全程沟通很愉快，期待您下次光临
+            </p>
+        </div>
+            </div>
+</div>
+<div class="dp_box clearfix mt_10">
+    <img lazy_src="finish" title="囧囧88" alt="" class="dp_pic72" src="https://image.xiaozhustatic2.com/22/3,8,0,92,8867,260,260,a9349e76.jpg">
+    <div class="dp_con">
+        <h6 data-id="97804144000">
+            <span class="col_pink">囧囧88</span>入住时间：
+                        <if>2019年03月</if>
+                    </h6>
+                很喜欢！！！房东姐姐人也巨好！！！
+                        <div class="reply_box">
+            <div class="arrow_top"></div>
+            <h5>房东回复:</h5>
+            <p>
+                        不错的房客，可爱的小妹妹，欢迎你们下次再来
+            </p>
+        </div>
+            </div>
+</div>
+<div class="dp_box clearfix mt_10">
+    <img lazy_src="finish" title="unreality" alt="" class="dp_pic72" src="https://image.xiaozhustatic2.com/22/5,51,0,90,63482,260,260,205e75a0.jpg">
+    <div class="dp_con">
+        <h6 data-id="98319354100">
+            <span class="col_pink">unreality</span>入住时间：
+                        <if>2019年03月</if>
+                    </h6>
+                很好很cool 很舒适  很值得推荐
+                        <div class="reply_box">
+            <div class="arrow_top"></div>
+            <h5>房东回复:</h5>
+            <p>
+                        不错的房客，屋子保持的很干净~
+            </p>
+        </div>
+            </div>
+</div>
+<input type="hidden" id="commentIdDialog" value="">
+    </div>
+</div>
+
+<div id="othercomment_box" class="comment_con" style="display:none;">
+        <div class="comment_box clearfix">
+        <div class="score_l">
+                        <span class="x_textscore">4.9<em class="f_24">/5分</em></span>
+            <ul class="stars_box">
+                                    <li class="stars_info nomarginL"><i class="yellow_star"></i></li>
+                                    <li class="stars_info "><i class="yellow_star"></i></li>
+                                    <li class="stars_info "><i class="yellow_star"></i></li>
+                                    <li class="stars_info "><i class="yellow_star"></i></li>
+                                                <li class="stars_info"><i class="yellow_star" style="width:90%;"></i></li>
+                                            </ul>
+        </div>
+        <ul class="score_r clearfix">
+            <li><span>整洁卫生</span>5分</li>
+            <li><span>描述相符</span>5分</li>
+            <li><span>交通位置</span>4.7分</li>
+            <li><span>安全程度</span>5分</li>
+            <li><span>性价比</span>5分</li>
+        </ul>
+    </div>
+
+        <div class="comment_list" id="othercomment">
+            </div>
+</div>
+<!--照片轮播-->
+<div id="lightBoxDialog" class="user_unselectable" style="display:none;">
+    <div class="mask"></div>
+    <div class="colsed" id="close_photo_box"></div>
+    <a class="detail-photo-prev"></a>
+    <a class="detail-photo-next"></a>
+    <div class="pic_show_box">
+        <a class="rota_l"></a>
+        <a class="rota_r" onselectstart="return false;"></a>
+        <div class="big_pic user_unselectable">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tbody><tr>
+                    <td id="bigImage_pic_box">
                         <div class="pr">
-                          <img id="curBigPhoto" src="" alt="">
+                            <img id="curBigPhoto" src="" alt="">
                         </div>
-                      </td>
-                    </tr>
-                    </tbody>
-                  </table>
-                </div>
-                <div class="small_pic_box clearfix" id="small_pic_box_father"></div>
-              </div>
-            </div>
-            <!--/照片轮播-->
-          </div>
+                    </td>
+                </tr>
+            </tbody></table>
+        </div>
+        <div class="small_pic_box clearfix" id="small_pic_box_father">
+        </div>
+    </div>
+</div>
+<!--/照片轮播-->
+                            </div>
 
 
         </div><!--/ .content-wrapper-->
@@ -1147,4 +884,10 @@ export default {
     width: 13px;
     height: 7px;
   }
+  #load_Ajax_GetDetalCommentAndOtherComment{
+    margin-top: 50px;
+  }
+  .dp_ico1, .dp_ico2 {
+    background: url(//jci.xiaozhustatic2.com/e20201109/images/detail/sprice.png) no-repeat;
+}
 </style>

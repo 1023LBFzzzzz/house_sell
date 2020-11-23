@@ -133,82 +133,74 @@
 
 
 <!--        </div>&lt;!&ndash;/ .content-wrapper&ndash;&gt;-->
-        <div class="bg_box content-wrapper sbr clearfix" id="rulesPart">
-          <div class="clause_box">
-            <h5>押金及其他费用</h5>
+       <div class="bg_box" id="rulesPart">
+                <div class="clause_box">
+                                        <h5>押金及其他费用</h5>
+                                        <p>押金：
 
-            <p>押金： 100元 <a href="http://www.xiaozhu.com/yunying/cashPledgeFree"><span class="zhima_deposit_noico">小猪担保免押 ></span></a>
+                                                500元
 
-              <br>加客：允许加客
-              <br>
-            </p>
-            <div class="clearfix">其他额外费用：有偿使用KTV，烧烤，麻将桌等！ 超员收取88元／位（包括儿童） 使用厨房收取300元／餐</div>
-          </div>
-          <div class="clause_box">
-            <h5>房东对房客的要求</h5>
+                                                <a href="https://www.xiaozhu.com/yunying/cashPledgeFree"><span class="zhima_deposit_noico">小猪担保免押 &gt;</span></a>
 
-            <div>室内禁止吸烟
-              <br>室内拖鞋不外穿</div>
-          </div>
-          <div class="clause_box">
-            <h5>预订方式</h5>
-
-            <p>下单即可入住，无需房东确认。
-              <br>订单确认后，在线支付总房款的100%。
-              <br>额外的服务费用不包含在总房租内，由房东线下收取。
-              <br>
-            </p>
-          </div>
-          <div class="clause_box border_none1 new_order_h old_rule_wrap" style="display: none;">
-            <h5>退订规则
-            </h5>
-
-            <div class="order_h " style="display: block;">
-              <div class="order_bar">
-                <ul class="clearfix">
-                  <li></li>
-                </ul>
-                <div class="order_tip1 pos_1">如取消订单，订金全部退还</div>
-                <div class="order_tip2 pos_2">如取消订单，扣除11.24-11.24的订金</div>
-                <div class="order_tip2 pos_3">如提前退房，扣除之后 1天的订金。</div>
-                <div class="day_tip"> <span class="point1"></span>
-
-                  <p id="pos_n_1">10.13</p>
+                        <br>
+                                                                                            加客：不允许加客<br></p>
+                                        <div class="clearfix">
+                        其他额外费用：无                    </div>
                 </div>
-                <div class="day_tip pos_4"> <span class="point1"></span>
 
-                  <p id="pos_n_2">11.23 14:00前</p>
+                <div class="clause_box">
+                    <h5>预订方式</h5>
+                    <p>
+                                                下单需房东确认，确认后生成订单。<br>
+                                                订单确认后，在线支付总房款的100%。<br>
+                        额外的服务费用不包含在总房租内，由房东线下收取。<br>
+                                            </p>
                 </div>
-                <div class="day_tip pos_5"> <span class="point2"></span>
 
-                  <p id="pos_n_3">11.24 14:00前</p>
+                <div class="clause_box border_none1 new_order_h old_rule_wrap" style="display: none;">
+                    <h5>退订规则
+                                            </h5>
+                                        <div class="order_h " style="display: block;">
+                        <div class="order_bar">
+                            <ul class="clearfix">
+                                <li></li>
+                            </ul>
+                            <div class="order_tip1 pos_1">如取消订单，订金全部退还</div>
+                            <div class="order_tip2 pos_2">如取消订单，扣除前1天的订金。                            </div>
+                            <div class="order_tip2 pos_3">如提前退房，扣除之后 1天的订金。</div>
+                            <div class="day_tip">
+                                <span class="point1"></span>
+                                <p id="pos_n_1">预订成功</p>
+                            </div>
+                            <div class="day_tip pos_4">
+                                <span class="point1"></span>
+                                <p id="pos_n_2">入住前1天14：00前</p>
+                            </div>
+                            <div class="day_tip pos_5">
+                                <span class="point2"></span>
+                                <p id="pos_n_3">入住当天 14：00前</p>
+                            </div>
+                            <div class="day_tip pos_6">
+                                <span class="point3"></span>
+                                <p id="pos_n_4">退房当天 12：00前</p>
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="new_pos_notice">
+                        根据房东设置的交易规则未早于<span class="new_pos_n2">入住日14：00 1天</span>退订视为有责取消
+                        ，应扣除取消订单时间点后<span class="new_pos_n3"> 1</span>天订金作为违约金，剩余钱款将被原路退还
+                    </div>
                 </div>
-                <div class="day_tip pos_6"> <span class="point3"></span>
-
-                  <p id="pos_n_4">11.15 12:00前</p>
+                <div class="clause_box border_none1 new_order_h new_rule_wrap">
+                    <h5>退订说明
+                                            </h5>
+                    <div class="rule_wrap" id="newCancelRule">
+                        <ul class="rule_detail"><li><h3>入住前3天 14:00前 若取消订单，不扣除房费</h3></li><li><h3>入住前3天 14:00后 若取消订单，将扣除 100% 房费</h3></li></ul>
+                        <ul class="rule_tips_wrap"></ul>
+                    </div>
+                    <ul class="rule_tips"></ul>
                 </div>
-              </div>
             </div>
-            <div class="new_pos_notice">根据房东设置的交易规则未早于<span class="new_pos_n2">入住日14：00 7天</span>退订视为有责取消 ，应扣除取消订单时间点后<span class="new_pos_n3"> 1</span>天订金作为违约金，剩余钱款将被原路退还</div>
-          </div>
-          <div class="clause_box border_none1 new_order_h new_rule_wrap">
-            <h5>退订说明
-            </h5>
-
-            <div class="rule_wrap" id="newCancelRule">
-              <ul class="rule_detail">
-                <li>
-                  <h3>11月01日14:00前取消，所有金额全部退还</h3>
-                </li>
-                <li>
-                  <h3>11月01日14:00后取消，扣除未入住首日房费，以及剩余房费的50%</h3>
-                </li>
-              </ul>
-              <ul class="rule_tips_wrap"></ul>
-            </div>
-            <ul class="rule_tips"></ul>
-          </div>
-        </div>
 
         <!-- ************* - Main Footer - *************** -->
 
@@ -536,4 +528,21 @@ export default {
     margin-left: 8px;
     cursor: pointer;
   }
+
+/* body.light a > * {
+    color: #50554e;
+} */
+  .bg_box {
+    background: #fff;
+}
+.rule_wrap ul.rule_detail li:first-child:after {
+    display: inline-block;
+    content: "";
+    width: 1px;
+    height: 25px;
+    background-color: #212121;
+    position: absolute;
+    top: 30px;
+    left: 5px;
+}
 </style>
