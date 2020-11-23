@@ -107,17 +107,17 @@
 
           <div id="content">
             <div class="m-rank f-cb">
-              <div class="hd">综合评分<b class="s-fc1 all_avg">75.60</b>分/100分 网友综合租房信息评分（<b class="nums">205</b>人参加）</div>
+              <div class="hd">综合评分<b class="s-fc1 all_avg">78.90</b>分/100分 网友综合租房信息评分（<b class="nums">305</b>人参加）</div>
               <input type="hidden" name="borough_id" id="borough_id" value="7019553">
               <input type="hidden" name="pinyin" id="pinyin" value="shiliucaizhizhongxin">
               <ul class="score">
-                <li class="s1"><span class="tit">交 通：</span><span class="bor"><i style="width: 46%;"></i></span><span class="num">46%</span>
+                <li class="s1"><span class="tit">交 通：</span><span class="bor"><i style="width: 49%;"></i></span><span class="num">49%</span>
                 </li>
-                <li class="s2"><span class="tit">环 境：</span><span class="bor"><i style="width: 83%;"></i></span><span class="num">83%</span>
+                <li class="s2"><span class="tit">环 境：</span><span class="bor"><i style="width: 88%;"></i></span><span class="num">88%</span>
                 </li>
-                <li class="s3"><span class="tit">规 划：</span><span class="bor"><i style="width:79%"></i></span><span class="num">79%</span>
+                <li class="s3"><span class="tit">周 边：</span><span class="bor"><i style="width:73%"></i></span><span class="num">73%</span>
                 </li>
-                <li class="s4"><span class="tit">配 套：</span><span class="bor"><i style="width:85%"></i></span><span class="num">85%</span>
+                <li class="s4"><span class="tit">配 套：</span><span class="bor"><i style="width:81%"></i></span><span class="num">81%</span>
                 </li>
               </ul>
               <div class="BOX">
@@ -152,7 +152,7 @@
                 </div>
 
                 <div id="star" class="">
-                  <span>规划:</span>
+                  <span>周边:</span>
                   <ul class="star_UL" sid="0">
                     <li><a href="javascript:;">1</a></li>
                     <li><a href="javascript:;">2</a></li>
