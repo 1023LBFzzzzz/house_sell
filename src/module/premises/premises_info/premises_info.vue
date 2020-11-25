@@ -197,6 +197,20 @@
               </div>
                 <a class="order_btn" href="#ongo" id="day_yuding"  @click="order" style="margin-top: 40px;">立即预订<span class="f14"></span></a>
               </div>
+              <el-dialog
+                title="付款码"
+                :visible.sync="dialogVisible"
+                width="40%"
+                :before-close="handleClose"
+                class="dialog"
+                >
+                <img src="/static/static/image/WechatIMG762.jpeg"  class="logo"/>
+                <div class="order_btn" id="day_yuding"  @click="orderPay" style="margin-top: 40px;">立即预订<span class="f14"></span></div>
+                <!-- <span slot="footer" class="dialog-footer">
+                  <el-button @click="dialogVisible = false">取 消</el-button>
+                  <el-button type="primary" @click="dialogVisible = false">确 定</el-button>
+                </span> -->
+              </el-dialog>
 
               <div class="new_icon">
                 <div class="jiang-box alert-box post alert-box1" style="display: none;" data-action="/group_buy/group_buy_sign_in"><b></b><em class="jia-closeBtn closeBtn">X</em>
@@ -538,6 +552,7 @@ import {format} from "silly-datetime";
         phoneReg:/(^1[3|4|5|7|8]\d{9}$)|(^09\d{8}$)/,
         user:'',
         value6:'',
+        dialogVisible: false,
         pickerOptions1: {
           disabledDate(time) {
               return time.getTime() < Date.now() - 8.64e7;
@@ -549,6 +564,34 @@ import {format} from "silly-datetime";
       }
     },
     methods:{
+      orderPay() {
+       let params = {
+              startTime: this.startTime,
+              endTime: this.endTime,
+              premiseId: this.premise_id,
+              userId: this.user.cus_id,
+              telphone: this.user.telphone,
+        }
+        this.$http.post('/neusoft/premise/order/appoint', params).then(response => {
+            var res = response.body
+            if (res.isSuccess === 0) {
+              this.$message.success('预定成功');
+            } else if (res.isSuccess === 4) {
+              this.$message.error('预定失败');
+            } else {
+              this.$message.error(res.errorMsg);
+            }
+            this.dialogVisible = false
+        })
+      },
+      handleClose(done) {
+        this.$confirm('确认关闭？')
+          .then(_ => {
+            done();
+            this.$message.error('预定失败');
+          })
+          .catch(_ => {});
+      },
      order(){
             if(this.user === '') {
               var re = confirm("请先登录后再预订,是否继续?");
@@ -563,24 +606,7 @@ import {format} from "silly-datetime";
                 this.$message.error('请选择预定日期  ');
                 return
             }
-            console.log(this.user)
-             let params = {
-                  startTime: this.startTime,
-                  endTime: this.endTime,
-                  premiseId: this.premise_id,
-                  userId: this.user.cus_id,
-                  telphone: this.user.telphone,
-              }
-              this.$http.post('/neusoft/premise/order/appoint', params).then(response => {
-                  var res = response.body
-                  if (res.isSuccess === 0) {
-                     this.$message.success('预定成功');
-                  } else if (res.isSuccess === 4) {
-                    this.$message.error('预定失败');
-                  } else {
-                    this.$message.error(res.errorMsg);
-                  }
-              })
+            this.dialogVisible = true
           },
      dateChange(e){
       this.startTime = format(e[0], 'YYYY-MM-DD');
@@ -792,7 +818,7 @@ import {format} from "silly-datetime";
 
 </script>
 
-<style scoped>
+<style>
   .alert-box strong {
     display: block;
     width: 326px;
@@ -923,10 +949,30 @@ import {format} from "silly-datetime";
     color: #fff;
     font-size: 18px;
     text-decoration: none;
+    cursor: pointer;
   }
   .bd ul{
     display: flex;
     justify-content: space-between;
+  }
+  .logo{
+    width: 80%;
+    height: 500px;
+  }
+  .dialog{
+    /* display: flex; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .el-dialog__body {
+    padding: 30px 20px;
+    color: #606266;
+    font-size: 14px;
+    word-break: break-all;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
 </style>
